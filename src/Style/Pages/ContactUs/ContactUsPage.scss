@@ -2,7 +2,7 @@
     position: relative;
     // width: 50%;
     width: 100%;
-    margin-bottom: 200px;
+    margin-bottom: 70px;
     margin-top: 150px;
     .ContactUsFakePage{
         // background:red;
@@ -262,6 +262,9 @@ label{
 }
 
 @include devices (iphone_mobile){
+    .ContactUsPage_container_main{
+        margin-bottom: 30px !important;
+    }
     .ContactUsPage_text{
         width: 50% !important;
         margin-top: 2px !important;
@@ -291,9 +294,9 @@ label{
     }
     .ContactUsPage_buttton{
         .submit_buttton{
-            width: 40% !important;
+            width: 35% !important;
             font-size: 5px !important;
-            height: 20px !important;
+            height: 25px !important;
         }
     }
 }
