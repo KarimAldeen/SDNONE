@@ -1,0 +1,186 @@
+.OurTeamPage_container{
+    width: 70%;
+    margin: auto;
+    position: relative;
+    // min-height: 70vh;
+    display: flex;align-items: center;justify-content: center;flex-direction: column;
+    .OurTeamFakePage{
+        position: absolute;
+        height:30vh;
+        position:absolute;
+        top: -140px;
+    }
+    .OurTeamPage_title{
+        width: 100%;
+        color: #4C73B8;
+        text-align: center;
+        // font-family: Open Sans;
+        font-size: 86px;
+        font-weight: 700;
+    }
+    .OurTeamPage_text{
+        width: 70%;
+        text-align: center;
+        // margin-inline: auto;
+        color: #565656;
+        // font-family: Fira Sans;
+        font-size: 23px;
+        font-weight: 700;
+        text-transform: capitalize;
+        span{
+            font-weight: 600;
+        }
+    }
+    .OurTeamPage_logos{
+        width: 87%;
+        margin-inline: auto;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+        .left_logos{
+            display: flex; flex-direction: column;
+            width: 31.5%;
+            .left_first{
+                width: 100%;
+                min-height: 17.5vw;
+                border-radius: 2px;
+                background: var(--solid-c-4-c-4-c-4, #C4C4C4);
+            }
+            .Team_leader_section{
+                width: 100%;
+                min-height: 15.5vw;
+                border-radius: 2px;
+                background: var(--solid-202-d-3-b, #202D3B); 
+                display: flex; flex-direction: column;justify-content: center;        
+                .title{
+                    width: 80%;
+                    margin-inline: auto;
+                    color: var(--solid-fefefe, #FEFEFE);
+                    // font-family: Fira Sans;
+                    font-size: 16px;
+                    font-weight: 700;
+                }   
+                
+                .text{
+                    width: 80%;
+                    margin-inline: auto;
+                    color: var(--solid-fefefe, #FEFEFE);
+                    // font-family: Open Sans;
+                    font-size: 13px;
+                    font-weight: 300;
+                    line-height: 20px;
+                }
+
+                .read_more{
+                    width: 80%;
+                    margin-inline: auto;
+                    color: var(--solid-fefefe, #FEFEFE);
+                    // font-family: Fira Sans;
+                    font-size: 12px;
+                    font-weight: 700;
+                    svg{
+                        margin-left: 12px;
+                        font-size: 100%;
+                    }
+                }
+            }
+        }
+
+        .mid_logos, .right_logos{
+            display: flex; flex-direction: column;
+            width: 31.5%;
+            .mid_first, .mid_second, .right_first, .right_second{
+                width: 100%;
+                min-height: 15.7vw;
+                border-radius: 2px;
+                background: var(--solid-c-4-c-4-c-4, #C4C4C4);
+            }
+            .mid_first, .right_first{
+                margin-bottom: 1.6vw;
+            }
+        }
+
+        .right_logos{
+
+        }
+    }
+}
+
+
+//res 
+
+@include devices(SmallLaptop){
+    .OurTeamPage_title{
+        font-size: 60px !important;
+    }   
+    .OurTeamPage_text{
+        font-size: 15px !important;
+    }
+    .Team_leader_section{
+        .title{
+            font-size: 12px !important;
+        }
+        .text{
+            font-size: 9px !important;
+            line-height: 10px !important;
+        }
+        .read_more{
+            font-size: 9px !important;
+        }
+    }
+}
+
+
+@include devices(tablet){
+    .Team_leader_section{
+        .title{
+            font-size: 8px !important;
+        }
+        .text{
+            font-size: 6px !important;
+            margin-bottom: 4px !important;
+
+        }
+        .read_more{
+            font-size: 6px !important;
+        }
+    }
+}
+
+
+@include devices (iphone_mobile){
+    .OurTeamPage_title{
+        font-size: 30px !important;
+    }   
+    .OurTeamPage_text{
+        font-size: 9px !important;
+    }
+    .Team_leader_section{
+        .title{
+            font-size: 5px !important;
+        }
+        .text{
+            font-size: 4px !important;
+            line-height: 7px !important;
+        }
+        .read_more{
+            font-size: 5px !important;
+        }
+    }
+}
+
+@include devices(XS_mobile){
+    .Team_leader_section{
+        .title{
+            font-size: 3px !important;
+        }
+        .text{
+            font-size: 2px !important;
+            margin-bottom: 2px !important;
+
+        }
+        .read_more{
+            font-size: 3px !important;
+        }
+    }
+}

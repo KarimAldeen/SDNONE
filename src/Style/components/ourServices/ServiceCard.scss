@@ -1,0 +1,42 @@
+.ServiceCard{
+    display: flex;flex-direction: column;
+    height: 180px;
+    width: 100%;
+    .ServiceCard_icon{
+        margin-left: 10px;
+        font-size: 40px;
+        color: blue;
+        height: 70px;
+    }
+    .ServiceCard_title{
+        color: #000;
+        // font-family: Fira Sans;
+        font-size: 16px;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+    .ServiceCard_text{
+        color: var(--solid-666666, #666);
+        // font-family: Oxygen;
+        font-size: 13px;
+        font-weight: 400;
+        min-width: 5vw;
+    }
+}
+
+
+//res
+
+@include devices (mobile){
+    .ServiceCard_icon{
+        font-size: 30px !important;
+    }
+
+    .ServiceCard_text{
+        font-size: 9px !important;
+    }
+
+    .ServiceCard_title{
+        font-size: 11px !important;
+    }
+}

@@ -1,0 +1,87 @@
+.HomePageCard_container{
+    width: 27%;
+    height: 180px;
+    margin-top: 15px;margin-left: 12px;
+    box-shadow: 6px 10.08383px 18.16765px 6px rgba(0, 0, 0, 0.2);
+    background: #FFF;
+    display: flex;
+    .HomePageCard{
+        display: flex;justify-content: center;align-items: center;flex-direction: column;
+        border-radius: 11.216px;
+        height: 180px;
+        border: 0.59px solid #F2F2F2;
+        background: #FFF;
+        .HomePageCard_icon{
+            background: #4B4D9B;
+            background: linear-gradient(to bottom right, #4B4D9B, #4C73B8);
+            width: 37px;
+            height: 37px;
+            display: flex;align-items: center;justify-content: center;
+            border-radius: 100px;
+            margin-top: 10px;
+            .HomePageCard_svg, img{
+                width: 50%;
+            }
+        }
+        .HomePageCard_title{
+            height: 40px;
+            margin-top: 10px;
+            color: #000;
+            text-align: center;
+            // font-family: Source Sans Pro;
+            width: 50%;
+            font-size: 7px;
+            font-weight: 900;
+            line-height: 12.939px; 
+            letter-spacing: 0;
+        }
+        .HomePageCard_text{
+            width:65%;
+            margin-top: 0px;
+            color: #222A41;
+            text-align: center;
+            font-family: Sintony;
+            font-size: 8.5px;
+            font-weight: 400;
+            line-height: 12px; 
+        }
+    }
+}
+
+.ar{
+    .HomePageCard_title{
+        font-size: 10px !important;
+    }
+}
+
+
+// res 
+@include devices (SmallLaptop){
+    .HomePageCard_container{
+        width: 33%;
+    }
+}
+
+@include devices (iphone_mobile) {
+    .HomePageCard_container{
+        height: 160px !important;
+        .HomePageCard{
+            height: 160px !important;
+            .HomePageCard_icon{
+                width: 27px !important;
+                height: 27px !important;
+                .HomePageCard_svg{
+                    width: 30%;
+                }
+            }
+            .HomePageCard_title{
+                height: 20px !important;
+                font-size: 6px !important;
+            }
+            .HomePageCard_text{
+                font-size: 7.5px !important; 
+            }
+        }
+        
+    }
+}

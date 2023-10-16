@@ -1,0 +1,368 @@
+.footer_main_container{
+    background: #4B4D9B;
+    box-shadow: 0px 20px 40px -12px rgba(18, 30, 42, 0.05);
+    width: 100%;
+    // overflow: hidden !important;
+    height: 150px;
+    .get_started{
+        display: flex;justify-content: space-around;
+        height: 130px;
+        width: 70%;
+        margin-inline: auto;
+        padding-top: 35px;
+        margin-top: 10px;
+        overflow: hidden !important;
+
+        .get_started_text{
+            color: var(--solid-fefefe, #FEFEFE);
+            // font-family: Fira Sans;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 140%; /* 33.6px */
+            text-transform: capitalize;
+            width: 67%;
+        }
+        .get_started_button{
+            width: 27%;
+            button{
+                border-radius: 5px;
+                background: var(--solid-fafafa, #FAFAFA);
+                color: #2C72DC;
+                font-family: Fira Sans;
+                font-size: 14px;
+                border: none;
+                font-weight: 800;
+                width: 120px;
+                height: 45px;
+            }       
+        }
+    }
+    .footer_container{
+        width: 100%;
+        background: #202D3B;
+        height: 350px;
+        .footer{
+            display: flex;
+            justify-content: space-between;
+            width: 60%;
+            margin-inline: auto;    
+            .footer_logo{
+                display: flex;justify-content: space-between;
+                width: 30%;
+                margin-top: 100px;
+                .logo{
+                    width: 25%;
+                    .FooterLogo{
+                        width: 80% !important;
+                    }
+                }
+                .best_partner{
+                    width: 80%;
+                    display: flex; flex-direction: column;
+                    .first, .second{
+                        // font-family: Fira Sans;
+                        font-size: 19px;
+                        font-weight: 700;
+                        text-transform: uppercase;
+                        color: #fff;
+                    }
+                    .second{
+                        font-size: 12px;
+                        text-transform: none;
+                        font-weight: 400;
+                    }
+                }
+            }
+            .footer_links, .footer_head_office, .footer_opening_hour{
+                width: 25%;
+                height: 250px;
+                display: flex;
+                flex-direction: column;
+                margin-top: 100px;
+                .title, h1{
+                    margin-bottom: 20px;
+                    color: var(--solid-fefefe, #FEFEFE) !important;
+                    // font-family: Fira Sans;
+                    font-size: 15px;
+                    font-weight: 700;
+                    text-transform: capitalize;
+                }
+                .links{
+                    display: flex; flex-direction: column;
+                    .about_us_link{
+                        font-weight: 700;
+                    }
+                    span {
+                        svg{
+                            margin-right: 14px;
+                        }
+                        color: var(--solid-fafafa, #FEFEFE);
+                        // font-family: Fira Sans;
+                        font-size: 11px;
+                        font-weight: 400;
+                        text-transform: capitalize;
+                        line-height: 25px;
+                    }
+                }
+            }
+            .footer_head_office{
+                width: 25%;
+                margin-left: -50px;
+            }
+
+            .footer_opening_hour{
+                width: 25%;
+                margin-left: 40px;
+            }
+            
+        }
+    }
+}
+.text{
+    color: var(--solid-fefefe, #FEFEFE);
+    // font-family: Fira Sans;
+    font-size: 11px;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3px;
+}
+
+
+//res
+
+//Get STarted section
+@include devices(tablet){
+    .get_started{
+        width: 90% !important;
+        height: 100px !important;
+        .get_started_text{
+            font-size: 11px !important;
+        }
+        .get_started_button{
+            width: 15% !important;
+            button{
+                font-size: 9px !important;
+                width: 80px !important;
+                height: 30px !important;
+            }
+        }
+    }
+}
+
+@include devices(iphone_mobile){
+    .get_started{
+        padding-top: 15px !important;
+        height: 60px !important;
+        .get_started_text{
+            font-size: 7px !important;
+        }
+        .get_started_button{
+            width: 15% !important;
+            button{
+                font-size: 8px !important;
+                width: 60px !important;
+                height: 24px !important;
+            }
+        }
+    }
+}
+
+@include devices(XXS_mobile){
+    .get_started{
+        padding-top: 10px !important;
+        .get_started_text{
+            font-size: 5px !important;
+            width: 50% !important;
+        }
+    }
+}
+
+//MAin Footer Section  
+
+@include devices (SmallLaptop){
+        .footer{
+            width: 80% !important;
+        }        
+}
+
+@include devices (tablet){
+    .footer_container{
+        height: 250px !important;
+        .footer{
+            width: 80% !important;
+            
+            .footer_logo{
+                width: 30%;
+                margin-top: 70px !important;
+                .logo{
+                    width: 25%;
+                    .FooterLogo{
+                        width: 80% !important;
+                    }
+                }
+                .best_partner{
+                    width: 80%;
+                    .first, .second{
+                        font-size: 13px !important;
+                    }
+                    .second{
+                        font-size: 7px !important;
+                    }
+                }
+            }
+            .footer_links, .footer_head_office, .footer_opening_hour{
+                height: 150px !important;
+                margin-top: 70px !important;
+                .title, h1{
+                    margin-bottom: 10px !important;
+                    font-size: 10px !important;
+                }
+                .links{
+                    .about_us_link{
+                        // margin-bottom: -5px !important;
+                    }
+                    span {
+                        svg{
+                            margin-right: 8px !important;
+                        }
+                        font-size: 10px !important;
+                        line-height: 15px !important;
+                    }
+                }
+            }
+            .footer_head_office{
+                margin-left: -30px !important;
+                h1{
+                    font-size: 10px !important;
+                }
+                p{
+                    font-size: 10px !important;
+                }
+            }
+            .footer_opening_hour{
+                margin-left: 20px !important;
+                h1{
+                    font-size: 10px !important;
+                }
+                p{
+                    font-size: 10px !important;
+                }
+            }
+
+        } 
+    }       
+}
+
+@include devices(S_mobile){
+    .footer_container{
+        height: 180px !important;
+        .footer{            
+            .footer_logo{
+                width: 30%;
+                margin-top: 50px !important;
+                .logo{
+                    margin-top: -12px !important;
+                }
+                .best_partner{
+                    .first, .second{
+                        font-size: 9px !important;
+                    }
+                    .second{
+                        font-size: 5px !important;
+                    }
+                }
+            }
+            .footer_links, .footer_head_office, .footer_opening_hour{
+                height: 80px !important;
+                margin-top: 50px !important;
+                .title, h1{
+                    margin-bottom: 3px !important;
+                    font-size: 10px !important;
+                }
+                .links{
+                    .about_us_link{
+                        // margin-bottom: -5px !important;
+                    }
+                    span {
+                        svg{
+                            margin-right: 8px !important;
+                        }
+                        font-size: 7px !important;
+                        line-height: 10px !important;
+                    }
+                }
+            }
+            .footer_head_office{
+                margin-left: -10px !important;
+                .title{
+                    margin-bottom: 20px !important;
+                }
+                h1{
+                    font-size: 6px !important;
+                }
+                p{
+                    font-size: 6px !important;
+                }
+            }
+            .footer_opening_hour{
+                margin-left: 0px !important;
+                h1{
+                    margin-bottom: 20px !important;
+                }
+                h1{
+                    font-size: 6px !important;
+                }
+                p{
+                    font-size: 6px !important;
+                }
+            }
+        } 
+    }  
+}
+
+
+@include devices (tablet){
+    .footer_container{
+        .footer{            
+            .footer_logo{
+                .best_partner{
+                    .first, .second{
+                        font-size: 8px !important;
+                    }
+                    .second{
+                        font-size: 4px !important;
+                    }
+                }
+            }
+            .footer_links, .footer_head_office, .footer_opening_hour{
+                
+                .title, h1{
+                    font-size: 6px !important;
+                }
+                .links{
+                    span {
+                        font-size: 6px !important;
+                        line-height: 10px !important;
+                    }
+                }
+            }
+            .footer_head_office{
+                h1{
+                    font-size: 6px !important;
+                }
+                p{
+                    font-size: 6px !important;
+                }
+            }
+            .footer_opening_hour{
+                h1{
+                    font-size: 6px !important;
+                }
+                p{
+                    font-size: 6px !important;
+                }
+            }
+
+        } 
+    }       
+}

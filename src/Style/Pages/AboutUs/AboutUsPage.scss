@@ -1,0 +1,147 @@
+.AboutUsPage_container{
+    width: 76%;
+    // background: #000;
+    margin: auto;
+    margin-right: 50px;
+    display: flex;
+    min-height: 70vh;
+    position: relative;
+    .AboutUsFakePage{
+        height:30vh;
+        position:absolute;
+        top: -180px;
+    }
+    .AboutUsPage_left{
+        width: 48%;
+        .Moaz{
+            height: 90%;
+            width: 100%;
+        }
+    }
+
+    .AboutUsPage_right{
+        width: 60%;
+        .AboutUsPage_title{
+            color: #4C73B8;
+            // font-family: Open Sans;
+            font-size: 77px;
+            font-weight: 700;
+            margin-bottom: 40px;
+        }
+        
+        .AboutUsPage_text{
+            color: var(--solid-202-d-3-b, #202D3B);
+            // font-family: Fira Sans;
+            font-size: 34px;
+            font-weight: 400;
+            text-transform: capitalize;
+            width: 90%;
+            p{
+                font-weight: 700;
+                font-size: 30px;
+            }
+        }
+        .AboutUsPage_description{
+            color: var(--solid-666666, #666);
+            // font-family: Open Sans;
+            font-size: 16px;
+            font-weight: 400;
+            width: 90%;
+        }
+
+        .AboutUsPage_button{
+            width: 86%;
+            display: flex;align-items: center;justify-content: end;
+            a{
+                width: 36%;
+                cursor: pointer;
+                z-index: 9;
+            }
+            button{
+                z-index: 1;
+                width: 100%;
+                height: 4vw;
+                text-align: center;
+                border: none;
+                border-radius: 6px;
+                background: #4B4D9B;
+                color: var(--solid-fefefe, #FEFEFE);
+                // font-family: Fira Sans;
+                font-size: 1.1vw;
+                // padding: 1vw;
+                font-weight: 700;
+            }
+        }
+    }
+}
+
+// res 
+@include devices (tablet){
+    .AboutUsPage_container{
+        flex-direction: column-reverse;align-items: center;justify-content: center;
+        margin-right: 0px !important;
+        margin: auto;
+        width: 90%;
+
+        .AboutUsPage_left{
+            width: 80%;
+            margin-top: 5vw;
+        }
+        .AboutUsPage_right{
+            width: 80%;
+            .AboutUsPage_title{
+                width: 90% !important;
+                text-align: center;
+                font-size: 68px ;
+            }
+
+            .AboutUsPage_text{
+                width: 90% !important;
+                text-align: center;
+                font-size: 28px ;
+            }
+
+            .AboutUsPage_description{
+                width: 90% !important;
+                text-align: center;
+                font-size: 10px ;
+            }
+            .AboutUsPage_button{
+                width: 90% !important;
+                justify-content: center;
+                button{
+                    height: 7vw !important;
+                    font-size: 2vw;
+                }
+            }
+
+        }
+    }
+}
+
+
+@include devices (XS_mobile){
+    .AboutUsPage_right{
+        .AboutUsPage_title{
+            font-size: 30px !important;
+        }
+
+        .AboutUsPage_text{
+            font-size: 20px !important;
+            p{
+                font-size: 20px !important;
+            }
+        }
+
+        .AboutUsPage_description{
+            font-size: 8px !important;
+        }
+        .AboutUsPage_button{
+            // width: 100% !important;
+            .AboutUsPage_button{
+
+            }
+        }
+
+    }
+}

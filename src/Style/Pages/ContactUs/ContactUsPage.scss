@@ -1,0 +1,345 @@
+.ContactUsPage_container_main{
+    position: relative;
+    // width: 50%;
+    width: 100%;
+    margin-bottom: 200px;
+    margin-top: 150px;
+    .ContactUsFakePage{
+        // background:red;
+        width: 100%;
+        height:30vh;
+        position:absolute;
+        top: -240px;
+    }
+    .OurServicesFrame{
+        position: absolute;
+        width: 100%;
+        height: 150% !important;
+        top: -150px;
+    }
+}
+.ContactUsPage_container{
+    margin: auto;
+    width: 50%;
+    display: flex;flex-direction: column;
+    position: relative;
+    .ContactUsPage_title{
+        color: #4C73B8;
+        // font-family: Open Sans;
+        font-size: 52px;
+        font-weight: 700;
+    }
+    .ContactUsPage_text{
+        width: 50%;
+        color: #4B4B4B;
+        text-align: center;
+        // font-family: Fira Sans;
+        font-size: 14.5px;
+        font-weight: 600;
+        text-transform: capitalize;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .ContactUsPage_inputs{
+        display: flex;flex-direction: column;
+        width: 100%;
+        .first_input{
+            display: flex;justify-content: space-between;
+            width: 100%;
+            margin-bottom: 30px;
+            position: relative;
+            .label_one{
+                top: 14px;
+                left: 93px;
+            }
+            .label_two{
+                top: 14px;
+                left: 469px;
+            }
+            input{
+                width: 49%;
+                height: 54px;
+                padding-inline: 20px;
+                color: var(--solid-666666, #666);
+                // font-family: Open Sans;
+                font-size: 14px;
+                font-weight: 400;
+                text-transform: capitalize;
+                border-radius: 4px;
+                border: 1.3px solid var(--solid-c-4-c-4-c-4, #C4C4C4);
+                background: var(--solid-fefefe, #FEFEFE);
+            }
+        }
+
+        .third_input, .second_input{
+            width: 100%;
+            position: relative;
+            input, .message_input{
+                width: 100%;
+                height: 54px;
+                padding-inline: 20px;
+                color: var(--solid-666666, #666);
+                // font-family: Open Sans;
+                font-size: 14px;
+                font-weight: 400;
+                text-transform: capitalize;
+                border-radius: 4px;
+                border: 1.5px solid var(--solid-c-4-c-4-c-4, #C4C4C4);
+                background: var(--solid-fefefe, #FEFEFE);
+            }
+            .label_three{
+                top: 14px;
+                left: 71px;
+            }
+            .label_four{
+                top: 14px;
+                left: 86px;
+            }
+        }
+        .third_input{
+            margin-top: 30px;
+            .message_input{
+                height: 160px;
+                text-align: start !important;
+                padding-bottom: 81px ;
+            }
+        }
+    }
+    .ContactUsPage_buttton{
+        display: flex;align-items: end;justify-content: end;
+        width: 100%;
+        margin-top: 20px;
+        .submit_buttton{
+            border: none;
+            width: 23%;
+            height: 50px;
+            border-radius: 89.505px;
+            background: #7567AB;
+            color: var(--solid-fefefe, #FEFEFE);
+            text-align: center;
+            // font-family: Miriam Libre;
+            font-size: 14px;
+            font-weight: 600;
+            text-transform: capitalize;
+        }
+    }
+}
+
+
+
+
+label{
+    position: absolute;
+    color: #EB1037;
+    // font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+
+//res 
+
+
+@include devices (SmallLaptop){
+    .ContactUsPage_title{
+        font-size: 40px !important;
+    }
+    .ContactUsPage_text{
+        font-size: 9px !important;
+        margin-top: 10px !important; 
+        margin-bottom: 15px !important;
+        
+    }
+    
+    .OurServicesFrame{
+        top: -120px !important;
+    }
+    .first_input{
+        margin-bottom: 10px !important;
+        input{
+        height: 40px !important;
+        }   
+    }
+    .second_input{
+        input{
+            height: 40px !important;
+        } 
+    }
+    
+    .third_input{
+        margin-top: 10px !important;
+        input{
+            height: 120px !important;
+        }
+    }
+    .ContactUsPage_buttton{
+        margin-top: 10px !important;
+        .submit_buttton{
+            width: 40% !important;
+        }
+    }
+    
+}
+
+@include devices (tablet){
+    // .ContactUsPage_title{
+    //     font-size: 30px !important;
+    // }
+    // .ContactUsPage_text{
+    //     font-size: 7px !important;
+    //     margin-top: 5px !important;
+    //     margin-bottom: 10px !important;        
+    // }
+    
+    .OurServicesFrame{
+        top: -80px !important;
+    }
+    .first_input{
+        margin-bottom: 10px !important;
+        input{
+        height: 30px !important;
+        font-size: 8px !important;
+        }   
+    }
+    .second_input{
+        input{
+            height: 30px !important;
+            font-size: 8px !important;
+        } 
+    }
+    
+    .third_input{
+        margin-top: 5px !important;
+        input{
+            height: 70px !important;
+            padding-bottom: 41px !important;
+            font-size: 8px !important;
+        }
+    }
+    .ContactUsPage_buttton{
+        .submit_buttton{
+            // width: 50% !important;
+            font-size: 10px !important;
+            // height: 30px !important;
+        }
+    }
+}
+
+@include devices (mobile){
+    .ContactUsPage_title{
+        font-size: 20px !important;
+    }
+    .ContactUsPage_text{
+        width: 40% !important;
+        font-size: 7px !important;
+        margin-top: 3px !important;
+        margin-bottom: 6px !important;        
+    }
+    
+    .OurServicesFrame{
+        top: -60px !important;
+    }
+    .first_input{
+        margin-bottom: 5px !important;
+        input{
+        // height: 20px !important;
+        }   
+    }
+    .second_input{
+        input{
+            height: 20px !important;
+        } 
+    }
+    
+    .third_input{
+        margin-top: 5px !important;
+        input{
+            height: 50px !important;
+            padding-bottom: 21px !important;
+        }
+    }    
+}
+
+@include devices (iphone_mobile){
+    .ContactUsPage_text{
+        width: 50% !important;
+        margin-top: 2px !important;
+        margin-bottom: 3px !important;        
+    }
+    .OurServicesFrame{
+        top: -50px !important;
+    }
+    .first_input{
+        margin-bottom: 0px !important;
+        input{
+        height: 15px !important;
+        }   
+    }
+    .second_input{
+        input{
+            height: 15px !important;
+        } 
+    }
+    
+    .third_input{
+        margin-top: 0px !important;
+        input{
+            height: 30px !important;
+            padding-bottom: 11px !important;
+        }
+    }
+    .ContactUsPage_buttton{
+        .submit_buttton{
+            width: 40% !important;
+            font-size: 5px !important;
+            height: 20px !important;
+        }
+    }
+}
+
+
+@include devices (XS_mobile){
+    .ContactUsPage_title{
+        font-size: 15px !important;
+    }
+    .ContactUsPage_text{
+        width: 50% !important;
+        margin-top: 1px !important;
+        margin-bottom: 2px !important;        
+    }
+    .OurServicesFrame{
+        top: -40px !important;
+    }
+    .first_input{
+        margin-bottom: 0px !important;
+        input{
+        height: 10px !important;
+        font-size: 4px !important;
+        }   
+    }
+    .second_input{
+        input{
+            height: 10px !important;
+            font-size: 4px !important;
+        } 
+    }
+    
+    .third_input{
+        margin-top: 0px !important;
+        input{
+            height: 15px !important;
+            padding-bottom: 2px !important;
+            font-size: 4px !important;
+        }
+    }
+    .ContactUsPage_buttton{
+        .submit_buttton{
+            width: 30% !important;
+            font-size: 3px !important;
+            height: 10px !important;
+        }
+    }
+}
+
+
