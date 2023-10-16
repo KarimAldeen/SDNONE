@@ -110,7 +110,7 @@
 
 @include devices(S_mobile){
     .main_container{
-        width: 80%;
+        width: 90%;
         .left_header{
             width: 40%;
     
@@ -125,4 +125,22 @@
         font-size: 15px !important;
     }
 }
+}
+@include devices (iphone_mobile){
+    .main_container{
+        width: 96%;
+        height: 40px;
+        .left_header{
+            // width: 40%;
+            svg{
+                font-size: 10px !important;
+            }
+            span{
+                font-size: 10px !important;
+            }
+        }
+    }
+    input{
+        width: 25vw;
+    }
 }
