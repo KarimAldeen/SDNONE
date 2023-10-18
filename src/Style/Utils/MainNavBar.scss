@@ -3,6 +3,7 @@
     height: 182px;
     .MainNavBar{
         // position: relative;
+        scroll-behavior: smooth;
         position: fixed;
         width: 100%;
         top: 0;
