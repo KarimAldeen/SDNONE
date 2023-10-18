@@ -15,12 +15,13 @@
             display: flex;
             align-items: center;
             width: 65%;
+            justify-content: flex-start;
             .SDNLogo{
-                width: 80%;
+                width: 50px;
                 height: 50px;
             }
             .best_partner{
-                width: 100%;
+                // width: 100%;
                 margin-left: 10px;
                 .first{  
                 color: var(--solid-202-d-3-b, #202D3B);
