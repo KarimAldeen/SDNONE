@@ -67,7 +67,7 @@
   }
 
   @if $breakpoint == iphone_mobile {
-    @media only screen and (max-width: 490px) {
+    @media only screen and (max-width: 500px) {
       @content;
     }
   

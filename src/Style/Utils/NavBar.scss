@@ -230,10 +230,13 @@ a{
             .logo_section{
                 width: 70%;
                 // background: #000;
+                background: #ff4f4f;
                 .SDNLogo{
+                    background: #000000;
                     width: 50%;
                 }
                 .best_partner{
+                    background: red;
                     width: 100% !important;
                     margin-left: 0px !important;
                     .first, .second{
@@ -242,6 +245,7 @@ a{
                 }
             }
             .numder_section{
+                background: #09b100;
                 height: 22px !important ;
                 .first, .second{
                     font-size: 7px !important;
