@@ -112,7 +112,10 @@
     .main_container{
         width: 90%;
         .left_header{
-            width: 40%;
+            width: 35%;
+            svg, span{
+                font-size: 8px !important;
+            }
     
     }
     input{
@@ -132,15 +135,36 @@
         height: 40px;
         .left_header{
             // width: 40%;
-            svg{
-                font-size: 10px !important;
-            }
-            span{
-                font-size: 10px !important;
-            }
+            // svg{
+            //     font-size: 10px !important;
+            // }
+            // span{
+            //     font-size: 10px !important;
+            // }
         }
     }
     input{
         width: 25vw;
     }
+}
+
+@include devices(XS_mobile){
+    .main_container{
+        .left_header{
+            width: 50%;
+            svg, span{
+                font-size: 6px !important;
+            }
+    
+    }
+    input{
+        width: 30vw;
+        font-size: 6px !important;
+    }
+    svg{
+        top: 13px !important;
+        right: 5px !important;
+        font-size: 8px !important;
+    }
+}
 }

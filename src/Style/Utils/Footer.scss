@@ -108,11 +108,17 @@
             .footer_head_office{
                 width: 25%;
                 margin-left: -50px;
+                h1 ,.title{
+                    margin-bottom:36.5px;
+                }
             }
 
             .footer_opening_hour{
                 width: 25%;
                 margin-left: 40px;
+                h1{
+                    margin-bottom: 36.5px;
+                }
             }
             
         }
@@ -186,6 +192,7 @@
 }
 
 @include devices (tablet){
+    
     .footer_container{
         height: 250px !important;
         .footer{
@@ -219,21 +226,22 @@
                 }
                 .links{
                     .about_us_link{
-                        // margin-bottom: -5px !important;
+                        // margin-bottom: -10px !important;
                     }
                     span {
                         svg{
                             margin-right: 8px !important;
                         }
-                        font-size: 10px !important;
-                        line-height: 15px !important;
+                        font-size: 10px ;
+                        // line-height: 15px !important;
                     }
                 }
             }
             .footer_head_office{
                 margin-left: -30px !important;
-                h1{
+                h1, .title{
                     font-size: 10px !important;
+                    margin-bottom: 26px !important;
                 }
                 p{
                     font-size: 10px !important;
@@ -243,6 +251,7 @@
                 margin-left: 20px !important;
                 h1{
                     font-size: 10px !important;
+                    margin-bottom: 26px !important;
                 }
                 p{
                     font-size: 10px !important;
@@ -250,7 +259,16 @@
             }
 
         } 
-    }       
+    }  
+    .ar{
+        .footer_links{
+            .links{
+                span{
+                    font-size: 7px !important;
+                }   
+            }
+        }
+    }     
 }
 
 @include devices(S_mobile){
@@ -276,19 +294,20 @@
                 height: 80px !important;
                 margin-top: 50px !important;
                 .title, h1{
-                    margin-bottom: 3px !important;
+                    margin-bottom: 10px !important;
                     font-size: 10px !important;
                 }
                 .links{
+                    line-height: 0px !important;
                     .about_us_link{
                         // margin-bottom: -5px !important;
                     }
-                    span {
+                    span, .about_us_link {
                         svg{
                             margin-right: 8px !important;
                         }
                         font-size: 7px !important;
-                        line-height: 10px !important;
+                        // line-height: 10px !important;
                     }
                 }
             }
@@ -307,7 +326,7 @@
             .footer_opening_hour{
                 margin-left: 0px !important;
                 h1{
-                    margin-bottom: 20px !important;
+                    margin-bottom: 23px !important;
                 }
                 h1{
                     font-size: 6px !important;
@@ -318,16 +337,31 @@
             }
         } 
     }  
+    .ar{
+        .footer_links{
+            width: 30% !important;
+            .links{
+                span, .about_us_link{
+                    line-height: 15px !important;
+
+                    font-size: 4px !important;
+                }   
+            }
+        }
+    }  
 }
 
 
-@include devices (tablet){
+@include devices (iphone_mobile){
     .footer_container{
         .footer{            
             .footer_logo{
+                .logo{
+                    margin-top: -16px !important;
+                }
                 .best_partner{
                     .first, .second{
-                        font-size: 8px !important;
+                        font-size: 6px !important;
                     }
                     .second{
                         font-size: 4px !important;
@@ -335,20 +369,22 @@
                 }
             }
             .footer_links, .footer_head_office, .footer_opening_hour{
-                
+                // margin-bottom: 20px !important;
                 .title, h1{
                     font-size: 6px !important;
+                    margin-bottom: 10px !important;
                 }
                 .links{
-                    span {
-                        font-size: 6px !important;
-                        line-height: 10px !important;
+                    span, .about_us_link {
+                        font-size: 5px !important;
+                        line-height: 15px !important;
                     }
                 }
             }
             .footer_head_office{
-                h1{
+                h1, .title{
                     font-size: 6px !important;
+                    margin-bottom: 15px !important;
                 }
                 p{
                     font-size: 6px !important;
@@ -356,6 +392,7 @@
             }
             .footer_opening_hour{
                 h1{
+                    margin-bottom: 16px !important;
                     font-size: 6px !important;
                 }
                 p{
@@ -364,5 +401,19 @@
             }
 
         } 
-    }       
+    }        
+}
+@include devices (iphone_mobile){
+    .ar{
+        .footer_links{
+            width: 35% !important;
+            
+        }
+        .footer_opening_hour{
+                width: 40% !important;
+            // p{
+            //     font-size: 2px !important;
+            // }
+        }
+    }
 }

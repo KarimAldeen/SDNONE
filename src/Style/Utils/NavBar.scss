@@ -80,12 +80,12 @@
             color: var(--solid-202-d-3-b, #202D3B);
             text-align: center;
             // font-family: Fira Sans;
-            font-size: 1.1vw;
+            font-size: .8vw;
             font-weight: 400;
             text-transform: capitalize;
             cursor: pointer;
             svg{
-                font-size: 1.7vw;
+                font-size: 1vw;
                 font-weight: 700;
             }
         }
@@ -101,7 +101,13 @@ a{
 
 .ar{
     .links{
-        width: 50%;
+        // width: 45%;
+        span, svg{
+            font-size: .8vw;
+            svg{
+                font-size: 1vw;
+            }
+        }
     }
 }
 
@@ -113,18 +119,39 @@ a{
             width: 50%;
         }
     }
+    .ar{
+        .info{
+            width: 40%;
+        }
+    }
 }
 
 @include devices(SmallLaptop){
     .NavBar_container{
         .info{
             width: 55%;
-        }    
+        } 
+        .links{
+            span , svg{
+                font-size: 1.1vw;
+            }
+        }   
+    }
+    .ar{
+        .info{
+            width: 40%;
+        }
+        .links{
+            span, svg{
+                font-size: .8vw;
+            }
+        }
     }
 }
 
 @include devices(tablet){
     .NavBar_container{
+        height: 80px !important;
         .numder_section{
             height: 30px !important;
         }
@@ -133,6 +160,14 @@ a{
             width: 50%;
             span , svg{
                 font-size: 1.5vw;
+            }
+        }
+    }
+    .ar{
+        .links{
+            width: 50%;
+            span, svg{
+                font-size: 1.2vw;
             }
         }
     }
@@ -168,6 +203,14 @@ a{
             }
         }
     }
+    .ar{
+        .links{
+            width: 50%;
+            span, svg{
+                font-size: 8px;
+            }
+        }
+    }
 }
 @include devices(iphone_mobile){
     .NavBar_container{
@@ -175,6 +218,7 @@ a{
         .info{
             width:45% !important;
             .numder_section{
+                height: 22px !important ;
                 .first, .second{
                     font-size: 1.4vw !important;
                 }
@@ -196,6 +240,34 @@ a{
             span , svg{
                 font-size: 8px;
             }
+        }
+    }
+    .ar{
+        .info{
+            width: 40% !important;
+        }
+        .links{
+            width: 55%;
+            span, svg{
+                font-size: 7px !important;
+            }
+        }
+    }
+}
+
+@include devices (XS_mobile){
+    .NavBar_container{
+        height: 45px !important;
+    }
+    .links{
+        width: 50%;
+        .Lung{
+            .switch-left{
+                font-size: 4px !important;
+            }
+        }
+        span , svg{
+            font-size: 5px !important;
         }
     }
 }

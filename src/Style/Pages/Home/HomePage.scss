@@ -21,7 +21,7 @@
         .mid_h1{
             color: var(--solid-202-d-3-b, #202D3B);
             // font-family: Fira Sans;
-            font-size: 4vw;
+            font-size: 56px;
             font-weight: 700;
             line-height: 50px; 
             letter-spacing: .7px;
@@ -31,7 +31,7 @@
             width: 81%;
             color: var(--solid-666666, #666);
             font-family: Open Sans;
-            font-size: 1.05vw;
+            font-size: 15px;
             font-weight: 400;
         }
         .contact_us_button{
@@ -76,14 +76,14 @@
         .mid_section{
             display: flex;justify-content: center;align-items: center;
             margin: auto;
-            width: 80%;
+            width: 90%;
             .mid_h1{
-                width: 60%;
+                width: 100%;
                 text-align: center;
             }
             .mid_p{
                 text-align: center;
-                width: 40%;
+                width: 70%;
             }
             .contact_us_button{
                 width: 100% !important;
@@ -97,7 +97,7 @@
 
 
         .right_section{
-            width: 50%;
+            width: 80%;
             margin-left: auto;
             margin-top: 5vw;
         }
@@ -117,12 +117,9 @@
             width: 70% !important;
             font-size: 16px !important;
         }
+        .cards{
+            width: 94% !important;
+        }
         
     }
-    .left_section{
-        width: 100% !important  ;
-    }
 }
-
-
-

@@ -1,7 +1,7 @@
 .OurServicesPage_container_main{
     width: 100%;
     position: relative;
-    min-height: 80vh;
+    min-height: 40vw ;
     // margin-top: 200px !important;
     .OurServicesFakePage{
         height:30vh;
@@ -39,12 +39,12 @@
             display: flex;
             align-items: center;
             margin-left: 20px;
+            margin-top: 60px;
             .fisrt_cards{
                 width: 80%;
                 margin-inline: auto;
                 margin-right: 20px;
             }
-
             .second_cards{
                 width: 80%;
                 margin-inline: auto;
@@ -78,6 +78,7 @@
         }
         .OurServicesPage_right{
             width: 80% !important;
+            margin-top: 0px !important;
         }
     }
 }

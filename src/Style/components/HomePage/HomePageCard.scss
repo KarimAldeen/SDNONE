@@ -29,19 +29,19 @@
             color: #000;
             text-align: center;
             // font-family: Source Sans Pro;
-            width: 50%;
-            font-size: 7px;
+            width: 45%;
+            font-size: 9px;
             font-weight: 900;
             line-height: 12.939px; 
             letter-spacing: 0;
         }
         .HomePageCard_text{
-            width:65%;
+            width:71%;
             margin-top: 0px;
             color: #222A41;
             text-align: center;
-            font-family: Sintony;
-            font-size: 8.5px;
+            // font-family: Sintony;
+            font-size: 9px;
             font-weight: 400;
             line-height: 12px; 
         }
@@ -50,6 +50,9 @@
 
 .ar{
     .HomePageCard_title{
+        font-size: 11px !important;
+    }
+    .HomePageCard_text{
         font-size: 10px !important;
     }
 }
@@ -62,26 +65,73 @@
     }
 }
 
+
+@include devices (tablet){
+    .HomePageCard_container{
+        .HomePageCard{
+            .HomePageCard_title{
+                font-size: 10px !important;
+            }
+            .HomePageCard_text{
+                font-size: 10px !important; 
+            }
+        }
+    }
+    .ar{
+        .HomePageCard{
+            .HomePageCard_title{
+                font-size: 13px !important;
+            }
+            .HomePageCard_text{
+                font-size: 12px !important; 
+                line-height: 16px;
+            }
+        }
+    }
+}
+@include devices (S_mobile){
+    .ar{
+        .HomePageCard{
+            .HomePageCard_title{
+                font-size: 10px !important;
+            }
+            .HomePageCard_text{
+                font-size: 10px !important; 
+            }
+        }
+    }
+}
+
 @include devices (iphone_mobile) {
     .HomePageCard_container{
         height: 160px !important;
         .HomePageCard{
             height: 160px !important;
             .HomePageCard_icon{
-                width: 27px !important;
-                height: 27px !important;
+                width: 25px !important;
+                height: 25px !important;
                 .HomePageCard_svg{
-                    width: 30%;
+                    // width: 25% !important;
                 }
             }
             .HomePageCard_title{
-                height: 20px !important;
-                font-size: 6px !important;
+                height: 29px !important;
+                font-size: 7px !important;
             }
             .HomePageCard_text{
                 font-size: 7.5px !important; 
             }
         }
         
+    }
+    .ar{
+        .HomePageCard{
+            .HomePageCard_title{
+                font-size: 9px !important;
+            }
+            .HomePageCard_text{
+                font-size: 9px !important; 
+            }
+        }
     }
 }

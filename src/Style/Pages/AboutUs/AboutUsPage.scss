@@ -4,7 +4,7 @@
     margin: auto;
     margin-right: 50px;
     display: flex;
-    min-height: 70vh;
+    // min-height: 70vh;
     position: relative;
     .AboutUsFakePage{
         height:30vh;
@@ -28,7 +28,6 @@
             font-weight: 700;
             margin-bottom: 40px;
         }
-        
         .AboutUsPage_text{
             color: var(--solid-202-d-3-b, #202D3B);
             // font-family: Fira Sans;
@@ -76,13 +75,18 @@
 }
 
 // res 
+
+
+@include devices (SmallLaptop){
+    .AboutUsPage_container{
+        width: 90% ;
+        margin-right: 0px !important;
+        margin: auto;
+    }
+}
 @include devices (tablet){
     .AboutUsPage_container{
         flex-direction: column-reverse;align-items: center;justify-content: center;
-        margin-right: 0px !important;
-        margin: auto;
-        width: 90%;
-
         .AboutUsPage_left{
             width: 80%;
             margin-top: 5vw;
@@ -92,26 +96,30 @@
             .AboutUsPage_title{
                 width: 90% !important;
                 text-align: center;
-                font-size: 68px ;
+                font-size: 70px;
+                margin-bottom: 0px;
             }
 
             .AboutUsPage_text{
                 width: 90% !important;
                 text-align: center;
-                font-size: 28px ;
+                font-size: 33px !important;
+                p{
+                    font-size: 25px !important;
+                }
             }
 
             .AboutUsPage_description{
                 width: 90% !important;
                 text-align: center;
-                font-size: 10px ;
+                font-size: 15px !important;
             }
             .AboutUsPage_button{
                 width: 90% !important;
                 justify-content: center;
                 button{
-                    height: 7vw !important;
-                    font-size: 2vw;
+                    height: 9vw !important;
+                    font-size: 2.2vw ;
                 }
             }
 
@@ -127,7 +135,8 @@
         }
 
         .AboutUsPage_text{
-            font-size: 20px !important;
+            font-size: 10px !important;
+            // display: none;
             p{
                 font-size: 20px !important;
             }
