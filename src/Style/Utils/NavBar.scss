@@ -6,7 +6,7 @@
     width: 60%;
     margin-inline: auto;
     display: flex;align-items: center;justify-content: space-between;
-    height: 110px;
+    // height: 110px; ?? TZKR 
     .info{
         display: flex;align-items: center;
         // justify-content: center ;
@@ -96,9 +96,6 @@
     }
 }
 
-a{
-    text-decoration: none;
-}
 
 .ar{
     .links{
@@ -213,14 +210,6 @@ a{
         }
     }
 }
-// @include devices(iphone_mobile){
-//     .navbar_container{
-//         height: 50px !important;
-//         .info{
-//             width: 50% !important;
-//         }
-//     }
-// }
 @include devices(iphone_mobile){
     .NavBar_container{
         width: 96%;
