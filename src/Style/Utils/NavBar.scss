@@ -8,7 +8,8 @@
     display: flex;align-items: center;justify-content: space-between;
     height: 110px;
     .info{
-        display: flex;align-items: center;justify-content: space-between;
+        display: flex;align-items: center;
+        // justify-content: center ;
         width: 45%;
         .logo_section{
             display: flex;
@@ -18,7 +19,7 @@
                 width: 80%;
             }
             .best_partner{
-                width: 70%;
+                width: 100%;
                 margin-left: 10px;
                 .first{  
                 color: var(--solid-202-d-3-b, #202D3B);
@@ -227,11 +228,14 @@ a{
         .info{
             width:50% !important;
             .logo_section{
+                width: 70%;
+                // background: #000;
                 .SDNLogo{
                     width: 50%;
                 }
                 .best_partner{
-                    // margin-left: 2px !important;
+                    width: 100% !important;
+                    margin-left: 0px !important;
                     .first, .second{
                         font-size: 8px !important;
                     }
