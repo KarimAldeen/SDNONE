@@ -150,9 +150,9 @@
 @include devices(XS_mobile){
     .main_container{
         .left_header{
-            width: 50%;
+            width: 40% !important;
             svg, span{
-                font-size: 6px !important;
+                font-size: 8px !important;
             }
     
     }

@@ -135,3 +135,36 @@
         }
     }
 }
+@include devices(XS_mobile){
+    .HomePageCard_container{
+        .HomePageCard{
+            height: 160px !important;
+            .HomePageCard_icon{
+                width: 25px !important;
+                height: 25px !important;
+                .HomePageCard_svg{
+                    // width: 25% !important;
+                }
+            }
+            .HomePageCard_title{
+                height: 29px !important;
+                font-size: 7px !important;
+            }
+            .HomePageCard_text{
+                font-size: 7.5px !important; 
+            }
+        }
+        
+    }
+    .ar{
+        .HomePageCard{
+            .HomePageCard_title{
+                font-size: 7px !important;
+            }
+            .HomePageCard_text{
+                font-size: 7px !important; 
+            }
+        }
+    
+    }
+}
