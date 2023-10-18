@@ -212,21 +212,30 @@ a{
         }
     }
 }
+// @include devices(iphone_mobile){
+//     .navbar_container{
+//         height: 50px !important;
+//         .info{
+//             width: 50% !important;
+//         }
+//     }
+// }
 @include devices(iphone_mobile){
     .NavBar_container{
         width: 96%;
+        height: 50px !important;
         .info{
             width:50% !important;
             .numder_section{
                 height: 22px !important ;
                 .first, .second{
-                    font-size: 1.4vw !important;
+                    font-size: 7px !important;
                 }
             }
             .best_partner{
-                margin-left: 2px !important;
+                // margin-left: 2px !important;
                 .first, .second{
-                    font-size: 1.5vw !important;
+                    font-size: 8px !important;
                 }
             }
         }
