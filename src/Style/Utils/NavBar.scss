@@ -120,11 +120,11 @@
             width: 50%;
         }
     }
-    .ar{
-        .info{
-            width: 40%;
-        }
-    }
+    // .ar{
+    //     .info{
+    //         width: 40%;
+    //     }
+    // }
 }
 
 @include devices(SmallLaptop){
@@ -138,16 +138,16 @@
             }
         }   
     }
-    .ar{
-        .info{
-            width: 40%;
-        }
-        .links{
-            span, svg{
-                font-size: .8vw;
-            }
-        }
-    }
+    // .ar{
+    //     .info{
+    //         width: 40%;
+    //     }
+    //     .links{
+    //         span, svg{
+    //             font-size: .8vw;
+    //         }
+    //     }
+    // }
 }
 
 @include devices(tablet){
@@ -178,14 +178,14 @@
             }
         }
     }
-    .ar{
-        .links{
-            width: 50%;
-            span, svg{
-                font-size: 1.2vw;
-            }
-        }
-    }
+    // .ar{
+    //     .links{
+    //         width: 50%;
+    //         span, svg{
+    //             font-size: 1.2vw;
+    //         }
+    //     }
+    // }
 }
 
 @include devices (S_mobile){
