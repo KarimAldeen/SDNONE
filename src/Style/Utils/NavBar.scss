@@ -226,18 +226,24 @@ a{
         height: 50px !important;
         .info{
             width:50% !important;
+            .logo_section{
+                .SDNLogo{
+                    width: 50%;
+                }
+                .best_partner{
+                    // margin-left: 2px !important;
+                    .first, .second{
+                        font-size: 8px !important;
+                    }
+                }
+            }
             .numder_section{
                 height: 22px !important ;
                 .first, .second{
                     font-size: 7px !important;
                 }
             }
-            .best_partner{
-                // margin-left: 2px !important;
-                .first, .second{
-                    font-size: 8px !important;
-                }
-            }
+            
         }
         .links{
             width: 50%;
