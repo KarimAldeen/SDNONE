@@ -11,11 +11,11 @@ const Header = () => {
             <div className='left_header'>
                <div className='working_time'>
                     <AiFillClockCircle/>
-                    <span> 08:00 - 18:00 </span>
+                    <span className='info_span'> 08:00 - 18:00 </span>
                </div>
                <div className='loation'>
                     <MdLocationPin/>
-                    <span>Syria</span>
+                    <span className='info_span'>Syria</span>
                </div>
             </div>
 
