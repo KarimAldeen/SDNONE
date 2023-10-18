@@ -272,7 +272,7 @@ label{
         margin-bottom: 30px !important;
     }
     .ContactUsPage_text{
-        width: 50% !important;
+        width: 100% !important;
         margin-top: 2px !important;
         margin-bottom: 3px !important;        
     }
@@ -282,14 +282,14 @@ label{
     .first_input{
         margin-bottom: 0px !important;
         input{
-        height: 15px !important;
+        height: 21px !important;
         font-size: 6px !important;
         }   
     }
     .second_input{
         input{
             font-size: 6px !important;
-            height: 15px !important;
+            height: 21px !important;
         } 
     }
     
@@ -305,7 +305,7 @@ label{
         .submit_buttton{
             width: 35% !important;
             font-size: 5px !important;
-            height: 25px !important;
+            height: 30px !important;
         }
     }
 }
@@ -313,12 +313,12 @@ label{
 
 @include devices (XS_mobile){
     .ContactUsPage_title{
-        font-size: 15px !important;
+        font-size: 10px !important;
     }
     .ContactUsPage_text{
-        width: 50% !important;
         margin-top: 1px !important;
-        margin-bottom: 2px !important;        
+        margin-bottom: 2px !important;    
+        font-size:5px !important;    
     }
     .OurServicesFrame{
         top: -40px !important;
@@ -326,30 +326,30 @@ label{
     .first_input{
         margin-bottom: 0px !important;
         input{
-        height: 10px !important;
-        font-size: 4px !important;
+        height: 16px !important;
+        font-size: 5px !important;
         }   
     }
     .second_input{
         input{
-            height: 10px !important;
-            font-size: 4px !important;
+            height: 16px !important;
+            font-size: 5px !important;
         } 
     }
     
     .third_input{
         margin-top: 0px !important;
         input{
-            height: 15px !important;
+            height: 24px !important;
             padding-bottom: 2px !important;
-            font-size: 4px !important;
+            font-size: 5px !important;
         }
     }
     .ContactUsPage_buttton{
         .submit_buttton{
             width: 30% !important;
             font-size: 3px !important;
-            height: 10px !important;
+            height: 14px !important;
         }
     }
 }

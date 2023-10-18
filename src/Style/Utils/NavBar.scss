@@ -157,7 +157,15 @@
         .info{
             height: 40px ;
         }
+        .best_partner{
+            .first, .second{
+                font-size: 13px !important;
+            }
+        }
         .numder_section{
+            .first, .second{
+                font-size: 13px !important;
+            }
             height: 30px !important;
         }
         width: 100%;
@@ -166,7 +174,7 @@
             width: 50%;
 
             span , svg{
-                font-size: 1.5vw;
+                font-size: 1.6vw;
             }
         }
     }
@@ -180,6 +188,47 @@
     }
 }
 
+@include devices (S_mobile){
+    .navbar_container{
+        .best_partner{
+            .first, .second{
+                font-size: 9px !important;
+            }
+        }
+        .numder_section{
+            .first, .second{
+                font-size: 9px !important;
+            }
+        }
+        .links{
+            span, .svg{
+                font-size: 7px;
+            }
+        }
+    }
+
+}
+
+
+@include devices (XS_mobile){
+    .navbar_container{
+        .best_partner{
+            .first, .second{
+                font-size: 5px !important;
+            }
+        }
+        .numder_section{
+            .first, .second{
+                font-size: 5px !important;
+            }
+        }
+        .links{
+            span, .svg{
+                font-size: 5px;
+            }
+        }
+    }
+}
 // @include devices(S_mobile){
 //     .NavBar_container{
 //         width: 100%;
