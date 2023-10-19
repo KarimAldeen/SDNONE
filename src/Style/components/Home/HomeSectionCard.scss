@@ -2,12 +2,12 @@
     width: 27%;
     height: 180px;
     margin-top: 15px;margin-left: 12px;
-    box-shadow: 6px 10.08383px 18.16765px 6px rgba(0, 0, 0, 0.2);
+    box-shadow: 6px 10px 18px 6px rgba(0, 0, 0, 0.2);
     background: #FFF;
     display: flex;
     .HomePageCard{
         display: flex;justify-content: center;align-items: center;flex-direction: column;
-        border-radius: 11.216px;
+        border-radius: 11px;
         height: 180px;
         border: 0.59px solid #F2F2F2;
         background: #FFF;
@@ -47,6 +47,9 @@
         }
     }
 }
+
+
+
 
 .ar{
     .HomePageCard_title{
