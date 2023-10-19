@@ -6,15 +6,15 @@
 
 
 @import '../components/Header.scss';
-@import '../Utils/NavBar.scss';
-@import '../Pages/Home/HomePage.scss';
-@import '../components/HomePage/HomePageCard.scss';
-@import '../Utils/MainNavBar.scss';
-@import '../Utils/Footer.scss';
-@import '../Utils/CopyRight.scss';
-@import '../Pages/PartnerPage/PartnerPage.scss';
-@import '../Pages/OurTeamPage/OurTeamPage.scss';
-@import '../Pages/ContactUs/ContactUsPage.scss';
-@import '../Pages/AboutUs/AboutUsPage.scss';
-@import '../Pages/OurServices/OurServicesPage.scss';
+@import '../Layout/NavBar.scss';
+@import '../sections/Home/HomeSection.scss';
+@import '../components/Home/HomeSectionCard.scss';
+@import '../Layout/MainNavBar.scss';
+@import '../Layout/Footer.scss';
+@import '../Layout/CopyRight.scss';
+@import '../sections/Partner/PartnerSection.scss';
+@import '../sections/OurTeam/OurTeamSection.scss';
+@import '../sections/ContactUs/ContactUsSection.scss';
+@import '../sections/AboutUs/AboutUsSection.scss';
+@import '../sections/OurServices/OurServicesSection.scss';
 @import '../components/ourServices/ServiceCard.scss';
