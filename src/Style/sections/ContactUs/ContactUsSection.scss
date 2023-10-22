@@ -50,17 +50,15 @@
             display: flex;justify-content: space-between;
             width: 100%;
             margin-bottom: 30px;
-            position: relative;
-            .label_one{
-                top: 14px;
-                left: 93px;
+            .email_div{
+                text-align: end !important;
             }
-            .label_two{
-                top: 14px;
-                left: 469px;
+            div{
+                width: 50%;
+                position: relative;
             }
             input{
-                width: 49%;
+                width: 98%;
                 height: 54px;
                 padding-inline: 20px;
                 color: var(--solid-666666, #666);
@@ -90,14 +88,6 @@
                 border: 1.5px solid var(--solid-c-4-c-4-c-4, #C4C4C4);
                 background: var(--solid-fefefe, #FEFEFE);
             }
-            .label_three{
-                top: 14px;
-                left: 71px;
-            }
-            .label_four{
-                top: 14px;
-                left: 86px;
-            }
         }
         .third_input{
             margin-top: 30px;
@@ -123,6 +113,7 @@
             // font-family: Miriam Libre;
             font-size: 13px;
             font-weight: 500;
+            cursor: pointer;
             text-transform: capitalize;
         }
     }
@@ -130,7 +121,15 @@
 
 
 
-
+.InValidSpan{
+    position: absolute;
+    top: 100%;
+    left: 2px;
+    font-size: 12px;
+    font-weight: 500;
+    color: red;
+    text-decoration: underline;
+}
 label{
     position: absolute;
     color: #EB1037;
@@ -172,7 +171,7 @@ label{
     
     .third_input{
         margin-top: 10px !important;
-        input{
+        .message_input{
             height: 120px !important;
         }
     }
@@ -217,7 +216,7 @@ label{
     
     .third_input{
         margin-top: 5px !important;
-        input{
+        .message_input{
             height: 70px !important;
             padding-bottom: 41px !important;
             font-size: 8px !important;
@@ -260,7 +259,7 @@ label{
     
     .third_input{
         margin-top: 5px !important;
-        input{
+        .message_input{
             height: 50px !important;
             padding-bottom: 21px !important;
         }
@@ -295,7 +294,7 @@ label{
     
     .third_input{
         margin-top: 0px !important;
-        input{
+        .message_input{
             font-size: 7px !important;
             height: 30px !important;
             padding-bottom: 11px !important;
@@ -339,7 +338,7 @@ label{
     
     .third_input{
         margin-top: 0px !important;
-        input{
+        .message_input{
             height: 24px !important;
             padding-bottom: 2px !important;
             font-size: 6px !important;

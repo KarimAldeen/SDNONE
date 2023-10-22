@@ -5,7 +5,7 @@ import './Style/App/Import.scss'
 import ReactDOM from 'react-dom/client';
 import App from './App';
 import { QueryClient, QueryClientProvider } from 'react-query';
-// import CustomToastContainer from './components/ToastCont';
+import CustomToastContainer from './components/ToastCont';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -14,7 +14,7 @@ root.render(
 
     <QueryClientProvider client={queryClient}>
       <App />
-      {/* <CustomToastContainer /> */}
+      <CustomToastContainer />
     </QueryClientProvider>
     
   );

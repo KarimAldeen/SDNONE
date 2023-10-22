@@ -6,10 +6,8 @@
     width: 60%;
     margin-inline: auto;
     display: flex;align-items: center;justify-content: space-between;
-    // height: 110px; ?? TZKR 
     .info{
         display: flex;align-items: center;
-        // justify-content: center ;
         width: 45%;
         height: 70px;
         .logo_section{
@@ -22,7 +20,6 @@
                 height: 40px;
             }
             .best_partner{
-                // width: 100%;
                 margin-left: 10px;
                 .first{  
                 color: var(--solid-202-d-3-b, #202D3B);
@@ -47,7 +44,6 @@
             justify-content: center;
             border-left: 1px solid #202D3B;
             padding-left: 13px;
-            // background: #000;
 
             .first, .second{
                 color: var(--solid-202-d-3-b, #202D3B);
@@ -102,7 +98,6 @@
 
 .ar{
     .links{
-        // width: 45%;
         span, svg{
             font-size: .8vw;
             svg{
@@ -116,15 +111,14 @@
 
 @include devices(MinLaptop){
     .NavBar_container{
+        width: 70%;
         .info{
-            width: 50%;
+            width: 40%;
         }
     }
-    // .ar{
-    //     .info{
-    //         width: 40%;
-    //     }
-    // }
+        .links{
+            width: 50% !important;
+        }
 }
 
 @include devices(SmallLaptop){
@@ -138,23 +132,13 @@
             }
         }   
     }
-    // .ar{
-    //     .info{
-    //         width: 40%;
-    //     }
-    //     .links{
-    //         span, svg{
-    //             font-size: .8vw;
-    //         }
-    //     }
-    // }
 }
 
 @include devices(tablet){
     .NavBar_container{
         flex-direction: column;
-        // height: 80px !important;
         .info{
+            width: 65%;
             height: 40px ;
         }
         .best_partner{
@@ -169,23 +153,13 @@
             height: 30px !important;
         }
         width: 100%;
-
         .links{
-            width: 50%;
-
+            width: 60%;
             span , svg{
                 font-size: 1.6vw;
             }
         }
     }
-    // .ar{
-    //     .links{
-    //         width: 50%;
-    //         span, svg{
-    //             font-size: 1.2vw;
-    //         }
-    //     }
-    // }
 }
 
 @include devices (S_mobile){
@@ -209,7 +183,6 @@
 
 }
 
-
 @include devices (XS_mobile){
     .navbar_container{
         .best_partner{
@@ -222,119 +195,5 @@
                 font-size: 5px !important;
             }
         }
-        .links{
-            span, .svg{
-                font-size: 7px;
-            }
-        }
     }
 }
-// @include devices(S_mobile){
-//     .NavBar_container{
-//         width: 100%;
-//         height: 60px;
-//         .info{
-//             width:100% !important;
-            
-//             .numder_section{
-//                 .first, .second{
-//                     font-size: 1.7vw !important;
-//                 }
-//             }
-//             .best_partner{
-//                 margin-left: 4px !important;
-//                 .first, .second{
-//                     font-size: 1.8vw !important;
-//                 }
-//             }
-//         }
-//         .links{
-//             width: 50%;
-//             .Lung{
-//                 .switch-left{
-//                     font-size: 6px;
-//                 }
-//             }
-//             span , svg{
-//                 font-size: 10px;
-//             }
-//         }
-//     }
-//     .ar{
-//         .links{
-//             width: 50%;
-//             span, svg{
-//                 font-size: 8px;
-//             }
-//         }
-//     }
-// }
-// @include devices(iphone_mobile){
-//     .NavBar_container{
-//         width: 96%;
-//         height: 50px !important;
-//         .info{
-//             width:50% !important;
-//             .logo_section{
-//                 width: 70%;
-//                 // background: #000;
-//                 .SDNLogo{
-//                     width: 50%;
-//                 }
-//                 .best_partner{
-//                     width: 100% !important;
-//                     margin-left: 0px !important;
-//                     .first, .second{
-//                         font-size: 8px !important;
-//                     }
-//                 }
-//             }
-//             .numder_section{
-//                 height: 22px !important ;
-//                 .first, .second{
-//                     font-size: 7px !important;
-//                 }
-//             }
-            
-//         }
-//         .links{
-//             width: 50%;
-//             .Lung{
-//                 .switch-left{
-//                     font-size: 5px;
-//                 }
-//             }
-//             span , svg{
-//                 font-size: 8px;
-//             }
-//         }
-//     }
-//     .ar{
-//         .info{
-//             width: 40% !important;
-//         }
-//         .links{
-//             width: 55%;
-//             span, svg{
-//                 font-size: 7px !important;
-//             }
-//         }
-//     }
-// }
-
-// @include devices (XS_mobile){
-//     .NavBar_container{
-//         height: 45px !important;
-//     }
-//     .links{
-//         width: 50%;
-//         .Lung{
-//             .switch-left{
-//                 font-size: 4px !important;
-//             }
-//         }
-//         span , svg{
-//             font-size: 5px !important;
-//         }
-//     }
-// }

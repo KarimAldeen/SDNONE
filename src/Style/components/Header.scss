@@ -70,26 +70,8 @@
 
 
 // res
+
 @include devices(MinLaptop){
-    .main_container{
-        .left_header{
-            width: 30%;
-        }
-    }
-     
-}
-
-
-
-@include devices(SmallLaptop){
-    .main_container{
-        .left_header{
-            width: 35%;
-        }
-    }
-}
-
-@include devices(tablet){
     .main_container{
         width: 70%;
         .left_header{
@@ -114,7 +96,6 @@
     }
 }
 
-
 @include devices(S_mobile){
     .main_container{
         width: 90%;
@@ -134,16 +115,14 @@
         right: 8px !important;
         font-size: 15px !important;
     }
+  }
 }
-}
+
 @include devices (iphone_mobile){
     .main_container{
         width: 92%;
         .left_header{
         }
-    }
-    input{
-        // width: 25vw;
     }
 }
 
@@ -154,7 +133,6 @@
             svg, span{
                 font-size: 8px !important;
             }
-    
     }
     input{
         width: 30vw;
@@ -165,5 +143,5 @@
         right: 5px !important;
         font-size: 8px !important;
     }
-}
+  }
 }
