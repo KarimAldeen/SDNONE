@@ -1,6 +1,7 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
 import  {HiArrowNarrowRight} from "react-icons/hi"
+import OurTeamCardsUp from '../../components/ourTeam/OurTeamCardsUp';
 const OurTeamSection = () => {
     const {t} = useTranslation();
   return (
@@ -18,22 +19,68 @@ const OurTeamSection = () => {
         <div className='OurTeamPage_logos'>
 
             <div className='left_logos'>
-                <div className='left_first'></div>
+                <div className='left_first'>
+                    <OurTeamCardsUp
+                    name={"Loubna"}
+                    fullName={"Loubna Orabi"}
+                    job={"Backend"}
+                    age={"25"}
+                    />
+                    {/* <img src='/assets/Services.png' alt='team_images'/> */}
+                </div>
                 <div className='Team_leader_section'>
                     <h1 className='title'>Loubna</h1>
                     <p className='text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt. </p>
-                    <div className='read_more'>{t("Read More")} <HiArrowNarrowRight/></div>
+                    {/* <div className='read_more'>{t("Read More")} <HiArrowNarrowRight/></div> */}
                 </div>
             </div>
 
             <div className='mid_logos'>
-                <div className='mid_first'></div>
-                <div className='mid_second'></div>
+
+                <div className='mid_first'>
+                    <OurTeamCardsUp
+                    name={"Ibrahim"}
+                    fullName={"Ibrahim Karimelddin"}
+                    job={"FullStack"}
+                    age={"20"}
+                    />
+                    {/* <img src='/assets/Services.png' alt='team_images'/> */}
+                </div>
+
+                <div className='mid_second'>
+                    <OurTeamCardsUp
+                    name={"Nagham"}
+                    fullName={"Nagham alsaade"}
+                    job={"Backend"}
+                    age={"25"}
+                    />
+                    {/* <img src='/assets/Services.png' alt='team_images'/> */}
+                </div>
+
             </div>
 
             <div className='right_logos'>
-                <div className='right_first'></div>
-                <div className='right_second'></div>
+
+                <div className='right_first'>
+                    <OurTeamCardsUp
+                    name={"Moaz"}
+                    fullName={"Moaz Dawalibi"}
+                    job={"Frontend"}
+                    age={"19"}
+                    />
+                    {/* <img src='/assets/Services.png' alt='team_images'/> */}
+                </div>
+
+                <div className='right_second'>
+                    <OurTeamCardsUp
+                    name={"Bishr"}
+                    fullName={"Bishr Flutter"}
+                    job={"Flutter"}
+                    age={"25"}
+                    />
+                    {/* <img src='/assets/Services.png' alt='team_images'/> */}
+                </div>
+
             </div>
         
         </div>

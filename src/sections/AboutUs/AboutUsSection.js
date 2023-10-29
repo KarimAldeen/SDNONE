@@ -1,16 +1,22 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
 import Moaz from '../../assetsSvg/Moaz';
-
+import {motion} from 'framer-motion'
 const AboutUsSection = () => {
 
   const {t} = useTranslation();
 
   return (
-    <div className='AboutUsPage_container'>
-      
+    <motion.div 
+    whileInView={{ opacity: [0, 0.5 ,1], scale:[ 1 ,  1.05] }}
+    transition={{ duration: 1.5 }}
+
+    
+    className='AboutUsPage_container'>
+        
       {/* Fake point for position fixed */}
-      <div className='AboutUsFakePage' id='About'></div>
+      <div className='AboutUsFakePage' 
+      id='About'></div>
 
       {/* image section */}
       <div className='AboutUsPage_left'>
@@ -31,7 +37,7 @@ const AboutUsSection = () => {
 
       </div>
 
-    </div>
+    </motion.div>
   )
 }
 

@@ -3,13 +3,17 @@ import OurServicesFrame from '../../assetsSvg/OurServicesFrame'
 import { useTranslation } from 'react-i18next'
 import ServiceCardLeftConfig from '../../config/ServiceCardLeftConfig'
 import ServiceCardRightConfig from '../../config/ServiceCardRightConfig'
+import {motion} from  'framer-motion'
 
 const OurServicesSection = () => {
 
     const {t} = useTranslation();
 
   return (
-    <div className='OurServicesPage_container_main'>
+    <motion.div className='OurServicesPage_container_main'
+    whileInView={{ opacity: [0 ,1] }}
+    transition={{ duration: 1.5 }}
+    >
         {/* Fake point for position fixed */}
         <div className='OurServicesFakePage' id='OurServices'></div>
 
@@ -39,7 +43,7 @@ const OurServicesSection = () => {
                 </div>
 
         </div>
-    </div>
+    </motion.div>
     
   )
 }

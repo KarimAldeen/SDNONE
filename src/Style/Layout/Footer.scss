@@ -91,7 +91,7 @@
                     }
                     span {
                         svg{
-                            margin-right: 14px;
+                            // margin-right: 14px;
                         }
                         color: var(--solid-fafafa, #FEFEFE);
                         // font-family: Fira Sans;
@@ -120,6 +120,13 @@
         }
     }
 }
+.ar{
+    .links{
+        span, .about_us_link{
+            font-size: 9px !important;
+        }
+    }
+}
 .text{
     color: var(--solid-fefefe, #FEFEFE);
     // font-family: Fira Sans;
@@ -133,9 +140,14 @@
 //res
 
 //Get STarted section
+
+@include devices(MinLaptop){
+    .get_started{
+        width: 80% !important;
+    }
+}
 @include devices(tablet){
     .get_started{
-        width: 90% !important;
         height: 100px !important;
         .get_started_text{
             font-size: 11px !important;
@@ -153,6 +165,7 @@
 
 @include devices(iphone_mobile){
     .get_started{
+        width: 90% !important;
         padding-top: 15px !important;
         height: 60px !important;
         .get_started_text{
@@ -222,14 +235,16 @@
                     font-size: 10px !important;
                 }
                 .links{
+                    width: 100% !important;
                     span {
                         svg{
-                            margin-right: 8px !important;
+                            margin-right: 2px !important ;
                         }
                         font-size: 10px ;
                     }
                 }
             }
+            
             .footer_head_office{
                 margin-left: -30px !important;
                 h1, .title{
@@ -243,10 +258,12 @@
             .footer_opening_hour{
                 margin-left: 20px !important;
                 h1{
+                    width: 100% !important;
                     font-size: 10px !important;
                     margin-bottom: 26px !important;
                 }
                 p{
+                    width: 100% !important;
                     font-size: 10px !important;
                 }
             }
@@ -359,12 +376,12 @@
             }
             .footer_links, .footer_head_office, .footer_opening_hour{
                 .title, h1{
-                    font-size: 7px !important;
+                    font-size: 6px !important;
                     margin-bottom: 10px !important;
                 }
                 .links{
                     span, .about_us_link {
-                        font-size: 6px !important;
+                        font-size: 5px !important;
                         line-height: 15px !important;
                     }
                 }
@@ -407,6 +424,17 @@
         .footer_opening_hour{
             p{
                 font-size: 4px !important;
+            }
+        }
+        .footer_links{
+            .links{
+                span, .about_us_link{
+                    font-size: 4px !important;
+                    svg{
+                        // display: none;
+                        margin-right: 0px !important;
+                    }
+                }
             }
         }
     }

@@ -6,7 +6,7 @@ import emailjs from '@emailjs/browser';
 import * as Yup from "yup";
 import { ErrorMessage,Field, Form, Formik } from 'formik';
 import { toast } from 'react-toastify';
-
+import {motion} from  'framer-motion'
 const ContactUsSection = (onSubmit,changeDisabledState, disabled,loading) => {
 
     const {t} = useTranslation();
@@ -47,7 +47,10 @@ const ContactUsSection = (onSubmit,changeDisabledState, disabled,loading) => {
 
 
   return (
-    <div className='ContactUsPage_container_main'>
+    <motion.div className='ContactUsPage_container_main'
+    whileInView={{ opacity: [0 ,1] }}
+    transition={{ duration: 1.5 }}
+    >
 
         {/* Fake point for position fixed */}
         <div className='ContactUsFakePage' id='ContactUs'></div>
@@ -122,7 +125,7 @@ const ContactUsSection = (onSubmit,changeDisabledState, disabled,loading) => {
             
 
         </div>
-    </div>
+    </motion.div>
   )
 }
 
