@@ -26,7 +26,6 @@ const OurTeamSection = () => {
                     job={"Backend"}
                     age={"25"}
                     />
-                    {/* <img src='/assets/Services.png' alt='team_images'/> */}
                 </div>
                 <div className='Team_leader_section'>
                     <h1 className='title'>Loubna</h1>
@@ -44,7 +43,6 @@ const OurTeamSection = () => {
                     job={"FullStack"}
                     age={"20"}
                     />
-                    {/* <img src='/assets/Services.png' alt='team_images'/> */}
                 </div>
 
                 <div className='mid_second'>
@@ -54,7 +52,6 @@ const OurTeamSection = () => {
                     job={"Backend"}
                     age={"25"}
                     />
-                    {/* <img src='/assets/Services.png' alt='team_images'/> */}
                 </div>
 
             </div>
@@ -68,7 +65,6 @@ const OurTeamSection = () => {
                     job={"Frontend"}
                     age={"19"}
                     />
-                    {/* <img src='/assets/Services.png' alt='team_images'/> */}
                 </div>
 
                 <div className='right_second'>
@@ -78,7 +74,6 @@ const OurTeamSection = () => {
                     job={"Flutter"}
                     age={"25"}
                     />
-                    {/* <img src='/assets/Services.png' alt='team_images'/> */}
                 </div>
 
             </div>

@@ -154,7 +154,7 @@
         }
         width: 100%;
         .links{
-            width: 60%;
+            width: 60% !important;
             span , svg{
                 font-size: 1.6vw;
             }
@@ -175,6 +175,7 @@
             }
         }
         .links{
+            width: 70% !important;
             span, .svg{
                 font-size: 7px;
             }
@@ -194,6 +195,12 @@
             .first, .second{
                 font-size: 5px !important;
             }
+        }
+    }
+    .ar{
+        
+        .links{
+            width: 80% !important;
         }
     }
 }
