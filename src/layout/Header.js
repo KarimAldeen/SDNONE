@@ -24,13 +24,15 @@ const Header = () => {
                </div>
 
             </div>
+            
             {/* search input */}
-            <div className='right_header'>
+
+            {/* <div className='right_header'>
                 <div className='search_input' >
                     <input  placeholder={t('Search...')}/>
                     <BiSearch/>
                 </div>
-            </div>
+            </div> */}
             
         </div>
     </div>

@@ -5,35 +5,21 @@
     .Card_2{
         width: 100% ;
         height: 100% ;
-        // background: #000;
         .Card_2_Top{
             width: 100%;
             height: 100%;
             display: flex; flex-direction: column;
-            // p{
-            //     position: absolute;
-            //     height: 16%;
-            //     // background: #000;
-            //     font-size: 20px;
-            //     color: #fff;
-            //     width: 100%;
-            //     display: flex;justify-content: center;
-            //     align-items: center;
-            // }
            img{
-            // background: #000;
             width: 100% ;
             height: 100% ;
           }  
         }
-        
     }
     .Card_1, .Card_1_Down{
         height: 100%;
         z-index: -1;
         position: absolute;
         height: 6.3vw;
-        // width: 18.9vw;
         width: 100%;
         border-radius: 1vw;
         cursor: pointer;
@@ -48,16 +34,12 @@
             font-size: 18px;
             color: #000;
             width: 80%;
-            z-index: 99999999999999999999999 !important;
         }
         .TeamCard_P{
             width: 80%;
             font-weight: 600;
             font-size: 12px;
             color: #fff;
-        }
-        img {
-            // display: none;  width: 11vw;
         }
     }
     // .Card_1_Down{
@@ -69,28 +51,18 @@
     // }
     .Card_1_Hovered,.Card_1_HoveredDown {
         flex-direction: column !important;
-        // background: #000;
         z-index: 1;
         transform: translateY(-13.5vw);
         height: 13vw;
         box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.1);
         transition: .4s ease-in-out;
-        
         display: flex;
         justify-content: center;
         align-items: center;
-        // img {
-        //     display: block;
-        //     width: fit-content;
-        //     max-width: 13vw;
-        //     // display: none;
-        //     max-height: 16vw;
-        // }
     }
     .Card_1_HoveredDown{
         // transform: translateY(16vw) !important;
     }
-
 }
 
 //res
@@ -107,7 +79,6 @@
     }
 }
 
-
 @include devices(tablet){
     .Card_1{
         line-height: 4px !important;
@@ -121,7 +92,6 @@
         }
     }
 }
-
 
 @include devices(mobile){
     .Card_1{
@@ -158,7 +128,7 @@
 @include devices(iphone_mobile){
     .Card_1{
         h2{
-            font-size: 5px !important;
+            font-size: 6px !important;
             margin-bottom: 9px !important;
         }
         .TeamCard_P{
@@ -171,7 +141,7 @@
 @include devices(XS_mobile){
     .Card_1{
         h2{
-            font-size: 4px !important;
+            font-size: 5px !important;
             margin-bottom: 8px !important;
             z-index: 9999 !important;
         }
