@@ -2,7 +2,7 @@ import React from 'react'
 import useHover from '../../hooks/useHover';
 import { useTranslation } from 'react-i18next';
 
-const OurTeamCardsUp = ({name, fullName, Position, age}) => {
+const OurTeamCardsUp = ({name, fullName, Position,  props, Key}) => {
     const { isHovered, handleMouseEnter, handleMouseLeave } = useHover();
     const isHoveredClassName = isHovered ? `Card_1 Card_1_Hovered` : `Card_1`;
     const {t} = useTranslation();
@@ -18,7 +18,6 @@ const OurTeamCardsUp = ({name, fullName, Position, age}) => {
                 <h2>{t("Who's")} {name}?</h2>
                 <p className='TeamCard_P'>{t("FullName")}: {fullName}.</p>
                 <p className='TeamCard_P'>{t("Position")}: {Position}.</p>
-                <p className='TeamCard_P'>{age} </p>   
             </div>
 
 
@@ -27,8 +26,9 @@ const OurTeamCardsUp = ({name, fullName, Position, age}) => {
               onMouseEnter={handleMouseEnter}
               onMouseLeave={handleMouseLeave}
             >
-              <div className={"Card_2_Top " }>
-                    <img src='/assets/Services.png' alt='team_images'/>
+              <div className={"Card_2_Top" }>
+                <img src={`../assets/Team/Team${Key}.png`} alt="" />
+
               </div>
 
           </div>   

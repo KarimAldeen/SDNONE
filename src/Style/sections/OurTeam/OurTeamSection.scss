@@ -85,7 +85,6 @@
         .mid_logos, .right_logos{
             display: flex; flex-direction: column;
             width: 31.5%;
-           
             .mid_first, .mid_second, .right_first, .right_second{
                 width: 100%;
                 min-height: 15.7vw;
@@ -98,6 +97,7 @@
         }
     }
 }
+
 //res 
 
 @include devices(SmallLaptop){
