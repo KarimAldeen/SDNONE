@@ -3,10 +3,12 @@
     margin: auto;
     position: relative;
     display: flex;align-items: center;justify-content: center;flex-direction: column;
+    z-index: 9999;
     .OurTeamFakePage{
         position: absolute;
         height:30vh;
         top: -250px;
+        z-index: 1;
     }
     .OurTeamPage_title{
         width: 100%;
