@@ -32,7 +32,7 @@ const AboutUsSection = () => {
           </p>
           <p className='AboutUsPage_description'>{t("Welcome to SDN, where we redefine possibilities and transform visions into thriving brands. As a dynamic force in the realm of marketing, we don't just create campaigns; we craft experiences that resonate.")}</p>
           <div className='AboutUsPage_button'>
-            <a href='#OurServices'><button>{t("Take Your Service")}</button></a>
+            <a className='takeServies' href='#OurServices'><button>{t("Take Your Service")}</button></a>
           </div>
 
       </div>

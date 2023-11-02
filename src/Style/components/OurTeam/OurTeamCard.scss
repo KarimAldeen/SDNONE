@@ -119,10 +119,6 @@
             margin-bottom: 11px !important;
         }
     }
-    .Card_1_Hovered{
-        height: 12vw !important;
-        transform: translateY(-12.3vw) !important;
-    }
 }
 
 @include devices(iphone_mobile){
@@ -149,9 +145,5 @@
             font-size: 4px !important;
             margin-bottom: 7px !important;
         }
-    }
-    .Card_1_Hovered{
-        height: 12vw !important;
-        transform: translateY(-12.3vw) !important;
     }
 }
