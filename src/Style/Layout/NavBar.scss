@@ -45,13 +45,12 @@
             justify-content: center;
             border-left: 1px solid #202D3B;
             padding-left: 13px;
-            // background: #000;
 
             .first, .second{
-                width: 85%;
+                width: 100%;
                 color: var(--solid-202-d-3-b, #202D3B);
                 // font-family: Fira Sans B;
-                font-size: 1.2vw;
+                font-size: 14.5px;
                 font-weight: 700;
                 text-transform: capitalize;
             }
@@ -59,9 +58,8 @@
                 font-family: Fira Sans B;
             }
             .second{
-                // font-family: none;
                 // font-family: Roboto !important;
-                font-size: 1.1vw !important;
+                font-size: 13.5px ;
                 font-weight: 400 !important;
             }
         }
@@ -155,7 +153,7 @@
     .NavBar_container{
         flex-direction: column;
         .info{
-            width: 50%;
+            width: 70%;
             height: 40px ;
         }
         .best_partner{
@@ -164,6 +162,7 @@
             }
         }
         .numder_section{
+            width: 50% !important;
             .first, .second{
                 font-size: 13px !important;
             }
@@ -187,8 +186,11 @@
             }
         }
         .numder_section{
-            .first, .second{
-                font-size: 9px !important;
+            .first{
+                font-size: 11px !important;
+            }
+            .second{
+                font-size: 10px !important;
             }
         }
         .links{
@@ -203,16 +205,19 @@
 
 @include devices (XS_mobile){
     .navbar_container{
-        .best_partner{
-            .first, .second{
-                font-size: 5px !important;
-            }
+        .info{
+            width: 80% !important;
         }
-        .numder_section{
-            .first, .second{
-                font-size: 5px !important;
-            }
-        }
+        // .best_partner{
+        //     .first, .second{
+        //         font-size: 5px !important;
+        //     }
+        // }
+        // .numder_section{
+        //     .first, .second{
+        //         font-size: 5px !important;
+        //     }
+        // }
     }
     .ar{
         

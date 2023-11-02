@@ -48,10 +48,21 @@
 
 //res
 @include devices (mobile){
-    .PartnerPage_title{
-        font-size: 30px !important;
+    .PartnerPage_container{
+        width: 80% !important;
+        .PartnerPage_title{
+            font-size: 30px !important;
+        }
+        .PartnerPage_text{
+            font-size: 10px !important;
+        }
     }
-    .PartnerPage_text{
-        font-size: 10px !important;
+    
+}
+
+@include devices (iphone_mobile){
+    .PartnerPage_container{
+        width: 90% !important;
     }
+    
 }
