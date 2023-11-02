@@ -57,7 +57,7 @@
                     width: 80%;
                     display: flex; flex-direction: column;
                     .first, .second{
-                        // font-family: Fira Sans;
+                        font-family: Fira Sans B;
                         font-size: 19px;
                         font-weight: 700;
                         text-transform: uppercase;
@@ -79,7 +79,7 @@
                 .title, h1{
                     margin-bottom: 20px;
                     color: var(--solid-fefefe, #FEFEFE) !important;
-                    // font-family: Fira Sans;
+                    font-family: Fira Sans B;
                     font-size: 15px;
                     font-weight: 700;
                     text-transform: capitalize;
@@ -94,7 +94,7 @@
                             // margin-right: 14px;
                         }
                         color: var(--solid-fafafa, #FEFEFE);
-                        // font-family: Fira Sans;
+                        font-family: Fira Sans B;
                         font-size: 11px;
                         font-weight: 400;
                         text-transform: capitalize;
@@ -209,16 +209,16 @@
             width: 80% !important;
             
             .footer_logo{
-                width: 30%;
+                // width: 30%;
                 margin-top: 70px !important;
                 .logo{
-                    width: 25%;
-                    .FooterLogo{
-                        width: 80% !important;
-                    }
+                    // width: 25%;
+                    // .FooterLogo{
+                        // width: 80% !important;
+                    // }
                 }
                 .best_partner{
-                    width: 80%;
+                    // width: 80%;
                     .first, .second{
                         font-size: 13px !important;
                     }
@@ -285,7 +285,7 @@
         height: 180px !important;
         .footer{            
             .footer_logo{
-                width: 30%;
+                // width: 30%;
                 margin-top: 50px !important;
                 .logo{
                     margin-top: -12px !important;

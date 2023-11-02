@@ -3,6 +3,8 @@ import { useTranslation } from 'react-i18next'
 
 const Moaz = () => {
   const {t} = useTranslation();
+  let What_the_language = localStorage.getItem('Lung')  ?? "en";
+  console.log(What_the_language);
   return(
     <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -18,9 +20,9 @@ const Moaz = () => {
         preserveAspectRatio="none"
         width="100%"
         height="100%"
-        viewBox="0 0 810 1024"
+        viewBox="10 20 910 894"
       >
-        <image width={810} height={1024} xlinkHref="../Images/moaz-image.jpg" />
+        <image width={1110} height={1114} xlinkHref="../Images/moaz-image.jpg" />
       </pattern>
       <filter
         id="Path_6"
@@ -195,27 +197,57 @@ const Moaz = () => {
           fontSize={16}
           fontFamily="OpenSans-Regular, Open Sans"
         >
-          <tspan x={0} y={17}>
+          {
+            What_the_language === "ar" ?
+            <>
+             <tspan x={130} y={17} className='TSN_1'>
            {t(" The level of professionalism and attention to detail")}{" "}
           </tspan>
-          <tspan x={0} y={43}>
+          <tspan x={55} y={43} className='TSN_2'>
             {t("displayed by SDN is truly commendable. Deadlines")}{" "}
           </tspan>
-          <tspan x={0} y={69}>
+          <tspan x={84} y={69} className='TSN_3'>
             {t("were not just met but exceeded, and the quality of")}{" "}
           </tspan>
-          <tspan x={0} y={95}>
+          <tspan x={140} y={95} className='TSN_4'>
             {t("their work is nothing short of stellar. It's evident")}{" "}
           </tspan>
-          <tspan x={0} y={121}>
+          <tspan x={150} y={121} className='TSN_5'>
             {t("that they don't just consider themselves a service")}{" "}
           </tspan>
-          <tspan x={0} y={147}>
+          <tspan x={144} y={147} className='TSN_6'>
             {t("provider; they're genuinely invested in the success")}{" "}
           </tspan>
-          <tspan x={0} y={173}>
+          <tspan x={80} y={147} className='TSN_7'>
             {t("of their clients.")}{" "}
           </tspan>
+            </>
+            : 
+            <>
+             <tspan x={0} y={17} className='TSN_1'>
+           {t(" The level of professionalism and attention to detail")}{" "}
+          </tspan>
+          <tspan x={0} y={43} className='TSN_2'>
+            {t("displayed by SDN is truly commendable. Deadlines")}{" "}
+          </tspan>
+          <tspan x={0} y={69} className='TSN_3'>
+            {t("were not just met but exceeded, and the quality of")}{" "}
+          </tspan>
+          <tspan x={0} y={95} className='TSN_4'>
+            {t("their work is nothing short of stellar. It's evident")}{" "}
+          </tspan>
+          <tspan x={0} y={121} className='TSN_5'>
+            {t("that they don't just consider themselves a service")}{" "}
+          </tspan>
+          <tspan x={0} y={147} className='TSN_6'>
+            {t("provider; they're genuinely invested in the success")}{" "}
+          </tspan>
+          <tspan x={0} y={177} className='TSN_7'>
+            {t("of their clients.")}{" "}
+          </tspan>
+            </>
+          }
+         
         </text>
         <text
           id="M.Amri"

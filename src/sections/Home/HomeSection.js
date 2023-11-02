@@ -21,7 +21,7 @@ const HomeSection = () => {
             <h1 className='mid_h1'>{t("Take Your Project")}</h1>
             <h1 className='mid_h1'>{t("To The Next Level")}</h1>
             <p className='mid_p'>{t("Collaborate with us, and together, we'll elevate your business above the competition, ensuring it shines uniquely in a sea of alternatives. Join forces with our expertise, and let's craft a distinctive identity for your enterprise, setting it apart as a standout choice in the market.")}</p>
-            <a href='#ContactUs'><button className='contact_us_button'>{t("Contact Us")}</button></a>
+            <div className='button_container'><a href='#ContactUs'><button className='contact_us_button'>{t("Contact Us")}</button></a></div>
             <div className='cards'>
                 <HomeCardConfig/>
             </div>

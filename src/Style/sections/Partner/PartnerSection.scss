@@ -1,13 +1,11 @@
 .PartnerPage_container{
-    // width: 100%;
     width: 70%;
     margin: auto;
     margin-bottom: 50px !important;
-    // min-height: 70vh;
     display: flex;align-items: center;justify-content: center;flex-direction: column;
     .PartnerPage_title{
         color: #3C30B0;
-        // font-family: Open Sans;
+        font-family: Fira Sans B;
         text-align: center;
         font-size: 60px;
         font-weight: 700;
@@ -18,8 +16,8 @@
         width: 70%;
         color: var(--solid-202-d-3-b, #202D3B);
         text-align: center;
-        // font-family: Fira Sans;
-        font-size: 18px;
+            font-family: Fira Sans B;
+        font-size: 19px;
         font-weight: 700;
         letter-spacing: 0.18px;
         text-transform: capitalize;
@@ -27,57 +25,33 @@
     .PartnerPage_logos{
         width: 100%;
         margin-inline: auto;
-        display: flex;
-        // align-items: center;
-        flex-direction: column;
-        .logo_top_section , .logo_bottom_section{
+        display: flex;flex-direction: column;
+        margin-top: 40px;
+        .logo_section {
+            max-width: 100%;
             display: flex;
-            width: 100%;
-            .logo_container, .logo_container_gray{
-                width: 33%;
+            .logo_container{
+                min-width: 33%; 
+                margin-bottom: 30px;
                 padding: 0px 20px;
-                height: 160px;
+                // height: 160px;
                 display: flex;justify-content: center;align-items: center;
-                svg{
-                    width: 66%;
-                }
                 img{
-                    width: 66%;
+                    width: 60%;
+                    object-fit: fill!important;
                 }
             }
-        }
-        .logo_top_section{
-            margin-top: 30px;
-        }
-        .logo_bottom_section{
-            .logo_container_gray{
-                background: var(--solid-f-4-f-4-f-4, #F4F4F4);
-
-            }
-        }
-        
+        } 
     }
 }
 
 
 //res
-@include devices(tablet){
-    .logo_container, .logo_container_gray{
-        height: 80px !important;
-    }
-}
-
 @include devices (mobile){
     .PartnerPage_title{
         font-size: 30px !important;
     }
     .PartnerPage_text{
         font-size: 10px !important;
-    }
-}
-
-@include devices(iphone_mobile){
-    .logo_container, .logo_container_gray{
-        height: 60px !important;
     }
 }

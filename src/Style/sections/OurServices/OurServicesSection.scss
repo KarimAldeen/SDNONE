@@ -2,7 +2,6 @@
     width: 100%;
     position: relative;
     min-height: 40vw ;
-    // margin-top: 200px !important;
     .OurServicesFakePage{
         height:30vh;
         position:absolute;
@@ -16,24 +15,26 @@
     .OurServicesPage_container{
     margin: auto;
     margin-top: 300px;
-    // margin-bottom: 100px;
     width: 63%;
     display: flex;
         .OurServicesPage_left{
             width: 50%;
             .OurServicesPage_title{
                 color: #4C73B8;
-                // font-family: Open Sans;
+                font-family: Fira Sans B;
                 font-size: 80px;
                 font-weight: 700;
                 margin-left: 30px;
                 line-height: 74px;
             }
-            img{
+            .img_bg{
+                background: #000 !important;
                 width: 100%;
+                img{
+                    width: 100%;
+                }
             }
         }
-
         .OurServicesPage_right{
             width: 60%;
             display: flex;
@@ -52,9 +53,6 @@
         }
     }
 }
-
-
-
 //res
 
 @include devices (SmallLaptop){
@@ -62,7 +60,6 @@
         width: 86% !important;
     }
 }
-
 @include devices (tablet){
     .OurServicesPage_container{
         width: 80% !important;

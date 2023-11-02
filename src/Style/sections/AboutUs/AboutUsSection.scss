@@ -3,7 +3,6 @@
     margin: auto;
     margin-right: 50px;
     display: flex;
-    // min-height: 70vh;
     position: relative;
     .AboutUsFakePage{
         height:30vh;
@@ -15,21 +14,22 @@
         .Moaz{
             height: 90%;
             width: 100%;
+            
         }
     }
-
     .AboutUsPage_right{
         width: 60%;
         .AboutUsPage_title{
             color: #4C73B8;
-            // font-family: Open Sans;
+            font-family: Fira Sans B;
             font-size: 77px;
             font-weight: 700;
             margin-bottom: 40px;
+            width: 90%;
         }
         .AboutUsPage_text{
             color: var(--solid-202-d-3-b, #202D3B);
-            // font-family: Fira Sans;
+            font-family: Fira Sans B;
             font-size: 34px;
             font-weight: 400;
             text-transform: capitalize;
@@ -41,12 +41,11 @@
         }
         .AboutUsPage_description{
             color: var(--solid-666666, #666);
-            // font-family: Open Sans;
+            // font-family: Fira Sans B;
             font-size: 16px;
             font-weight: 400;
             width: 90%;
         }
-
         .AboutUsPage_button{
             width: 86%;
             display: flex;align-items: center;justify-content: end;
@@ -64,12 +63,20 @@
                 border-radius: 6px;
                 background: #4B4D9B;
                 color: var(--solid-fefefe, #FEFEFE);
-                // font-family: Fira Sans;
+                font-family: Fira Sans B; 
                 font-size: 1.1vw;
-                // padding: 1vw;
                 font-weight: 700;
             }
         }
+    }
+}
+
+.ar{
+    .AboutUsPage_title, .AboutUsPage_text, .AboutUsPage_description{
+        text-align: end;
+    }
+    .AboutUsPage_button{
+        justify-content: start !important;
     }
 }
 
@@ -124,6 +131,14 @@
 
         }
     }
+    .ar{
+        .AboutUsPage_title, .AboutUsPage_text, .AboutUsPage_description{
+            text-align: center;
+        }
+        .AboutUsPage_button{
+            justify-content: center !important;
+        }
+    }
 }
 
 
@@ -148,24 +163,14 @@
         .AboutUsPage_title{
             font-size: 30px !important;
         }
-
         .AboutUsPage_text{
             font-size: 10px !important;
-            // display: none;
             p{
                 font-size: 20px !important;
             }
         }
-
         .AboutUsPage_description{
             font-size: 8px !important;
         }
-        .AboutUsPage_button{
-            // width: 100% !important;
-            .AboutUsPage_button{
-
-            }
-        }
-
     }
 }

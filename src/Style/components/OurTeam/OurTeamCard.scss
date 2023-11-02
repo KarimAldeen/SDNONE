@@ -19,23 +19,25 @@
         height: 100%;
         z-index: -1;
         position: absolute;
-        height: 6.3vw;
+        height: 4.5vw;
         width: 100%;
         border-radius: 1vw;
         cursor: pointer;
         transition: .4s ease-in-out;
         box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.1);
-        background: #4B4D9B;
+        background: linear-gradient(#4B4D9B, #4C73B8);
         display: flex; flex-direction: column;
-        justify-content: center;align-items: center;
+        justify-content: center;
+        align-items: center;
         h2{
             text-align: center;
-            font-weight: 900;
+            font-weight: 700;
             font-size: 18px;
             color: #000;
             width: 80%;
         }
         .TeamCard_P{
+            margin-inline:10px;
             width: 80%;
             font-weight: 600;
             font-size: 12px;
@@ -52,12 +54,12 @@
     .Card_1_Hovered,.Card_1_HoveredDown {
         flex-direction: column !important;
         z-index: 1;
-        transform: translateY(-13.5vw);
-        height: 13vw;
+        transform: translateY(-9.5vw);
+        height: 9vw;
         box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.1);
         transition: .4s ease-in-out;
         display: flex;
-        justify-content: center;
+        // justify-content: center;
         align-items: center;
     }
     .Card_1_HoveredDown{
@@ -65,13 +67,18 @@
     }
 }
 
+// .ar{
+//     .TeamCard_P{
+//         text-align: end !important;
+//     }
+// }
 //res
 
 @include devices(SmallLaptop){
     .Card_1{
         line-height: 10px !important;
         h2{
-            font-size: 13px !important;
+            font-size: 15px !important;
         }
         .TeamCard_P{
             font-size: 9px !important; 
@@ -111,11 +118,11 @@
         // height: 6.7vw !important;
         line-height: 0px !important;
         h2{
-            font-size: 6px !important;
+            font-size: 8px !important;
             margin-bottom: 12px !important;
         }
         .TeamCard_P{
-            font-size: 5px !important;
+            font-size: 5.6px !important;
             margin-bottom: 11px !important;
         }
     }
@@ -128,11 +135,11 @@
 @include devices(iphone_mobile){
     .Card_1{
         h2{
-            font-size: 6px !important;
+            font-size: 7.5px !important;
             margin-bottom: 9px !important;
         }
         .TeamCard_P{
-            font-size: 4px !important;
+            font-size: 4.7px !important;
             margin-bottom: 10px !important;
         }
     }
@@ -141,12 +148,12 @@
 @include devices(XS_mobile){
     .Card_1{
         h2{
-            font-size: 5px !important;
+            font-size: 5.5px !important;
             margin-bottom: 8px !important;
             z-index: 9999 !important;
         }
         .TeamCard_P{
-            font-size: 3px !important;
+            font-size: 4px !important;
             margin-bottom: 7px !important;
         }
     }

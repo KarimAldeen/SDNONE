@@ -10,7 +10,7 @@
     }
     .ServiceCard_title{
         color: #000;
-        // font-family: Fira Sans;
+        font-family: Fira Sans B;
         font-size: 16px;
         font-weight: 700;
         margin-bottom: .7vw;
@@ -21,6 +21,12 @@
         font-size: 13px;
         font-weight: 400;
         min-width: 5vw;
+    }
+}
+
+.ar{
+    .ServiceCard, .ServiceCard_title, .ServiceCard_text{
+        text-align: end;
     }
 }
 //res

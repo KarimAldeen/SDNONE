@@ -1,3 +1,37 @@
 a{
     text-decoration: none;
 }
+
+@font-face {
+    font-family: source_sans_pro;
+    src: url('../../utils/Fonts/source-sans-pro.regular.ttf');
+    // font-display: swap;
+  }
+
+@font-face {
+    font-family: source_sans_pro_SB;
+    src: url('../../utils/Fonts/source-sans-pro.semibold.ttf');
+    // font-display: swap;
+  }
+
+@font-face {
+    font-family: source_sans_pro_B;
+    src: url('../../utils/Fonts/source-sans-pro.bold.ttf');
+    // font-display: swap;
+  }
+
+@font-face {
+    font-family: Fira Sans B;
+    src: url('../../utils/Fonts/fira-sans.bold.ttf');
+  }
+  
+  @font-face {
+    font-family: Oxygen;
+    src: url('../../utils/Fonts/oxygen.bold.ttf');
+  }
+
+@font-face {
+    font-family: Roboto;
+    src: url('../../utils/Fonts/Roboto-Bold.ttf');
+    // font-display: swap;
+  }

@@ -12,7 +12,7 @@ const Footer = () => {
             
             <p className='get_started_text'>{t("Your thoughts matter, and we're here to turn them into digital reality. Reach out today and let's build something amazing together!")}</p>
             <div className='get_started_button'>
-                <button>{t("Get Started")}</button>
+                <a href='#ContactUs'><button>{t("Get Started")}</button></a>
             </div>
 
         </div>

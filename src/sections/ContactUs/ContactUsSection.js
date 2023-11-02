@@ -1,49 +1,43 @@
 import React, { useRef, useState } from 'react'
 import ContactUsFrame from '../../assetsSvg/ContactUsFrame'
 import { useTranslation } from 'react-i18next'
-import emailjs from '@emailjs/browser';
-// import { errors,Field, Form, Formik } from "formik";
 import * as Yup from "yup";
 import { ErrorMessage,Field, Form, Formik } from 'formik';
 import { toast } from 'react-toastify';
 import {motion} from  'framer-motion'
+import { useSendMessage } from '../../api/ContactUs';
 const ContactUsSection = (onSubmit,changeDisabledState, disabled,loading) => {
 
     const {t} = useTranslation();
 
     const [isLoading, setIsLoading] = useState(false);
+    // const {mutate  , isSuccess , isLoading } = useSendMessage(); 
+
+
 
 ////// validate ////// 
     const validationSchema = Yup.object().shape({
-        user_name: Yup.string().required("Required"),
+        name: Yup.string().required("Required"),
         subject: Yup.string().required("Required"),
         message: Yup.string().required("Required"),
-        user_email: Yup.string().email("Invalid email").required("Required"),
+        email: Yup.string().email("Invalid email").required("Required"),
       });
+      const ref = useRef();
 
 /////// send form ////// 
-    const form = useRef();
 
-    const sendEmail = async (e, {resetForm}) => {
+    const handleSubmit = (values) => {
 
-    //   e.preventDefault();   
-        setIsLoading(true);
-   
-        emailjs.sendForm('service_wqj5ja1', 'template_tx2teda', form.current, 'q_slYkqf-pn2JOc_F')
-        .then((result) => { 
-            console.log(result.text);
-            console.log("message sent");
-            setIsLoading(false)
-            toast.success(t("Send Successfully"))
-            resetForm();      
-        },
-        //  (error) => {
-        //     console.log(error.text);
-        // }
-        );
-    console.log(e);
+        // values['name'] = values['user_name']
+        values['content'] = values['message']
+        let ValueContainer = {...values}
+        // mutate(ValueContainer)
+        values['name'] =""
+        values['email'] =""
+        values['subject'] =""
+        ref.current.value= "" 
+        // console.log(values);
     };
-
 
 
   return (
@@ -70,29 +64,26 @@ const ContactUsSection = (onSubmit,changeDisabledState, disabled,loading) => {
                 
                 <Formik
                 initialValues={{
-                  user_name: "",
-                  user_email: "",
+                  name: "",
+                  email: "",
                   subject: "",
                   message: "",
                 }}
-                onSubmit={sendEmail}
+                onSubmit={handleSubmit}
                 validationSchema={validationSchema}
                 >
                 {({ errors, setFieldValue }) => (
 
 
-                <Form 
-                ref={form}
-                //  onSubmit={sendEmail}
-                 >
+                <Form>
 
                     <div className='first_input'>
                         <div className='name_div'>
-                            <Field className='name_input' required="required" placeholder={t('Your Name *')} type='text' name='user_name'/>
+                            <Field className='name_input' required="required" placeholder={t('Your Name *')} type='text' name='name'/>
                         </div>
 
                         <div className='email_div'>
-                            <Field className='email_input' required="required" id='email_feild' placeholder={t('Email Address *')}  name='user_email'/>
+                            <Field className='email_input' required="required" id='email_feild' placeholder={t('Email Address *')}  name='email'/>
                         </div>
                     </div>
 
@@ -103,7 +94,13 @@ const ContactUsSection = (onSubmit,changeDisabledState, disabled,loading) => {
                     <div className='third_input'>
                         <Field   
                         name='message'      
-                        className='message_input' required="required" placeholder={t('Messages *')}/>
+                        className='message_input' required="required" placeholder={t('Messages *')}
+                        ref={ref}
+                        defaultValue={""}
+                        onChange={(e) =>
+                          setFieldValue("message", e.target.value)
+                        }
+                        />
                     </div>
                     
                     {/* submit button */}

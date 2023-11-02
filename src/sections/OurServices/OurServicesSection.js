@@ -24,7 +24,8 @@ const OurServicesSection = () => {
                 {/* title and main image */}
                 <div className='OurServicesPage_left'>
                     <h1 className='OurServicesPage_title'>{t("Our Services")}</h1>
-                    <img src='/assets/Services.png' alt='service_img'/>
+                    <div className='img_bg'><img src='/assets/OurServices.jpg' alt='service_img'/></div>
+                    {/* <img src='/assets/Services.png' alt='service_img'/> */}
                 </div>
 
                 {/* cards */}

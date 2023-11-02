@@ -20,17 +20,16 @@ const OurTeamSection = () => {
 
             <div className='left_logos'>
                 <div className='left_first'>
-                    <OurTeamCardsUp
+                <img src='/assets/Services.png' alt='team_images'/>
+                    {/* <OurTeamCardsUp
                     name={"Loubna"}
                     fullName={"Loubna Orabi"}
-                    job={"Backend"}
-                    age={"25"}
-                    />
+                    Position={"Team leader"}
+                    /> */}
                 </div>
                 <div className='Team_leader_section'>
-                    <h1 className='title'>Loubna</h1>
-                    <p className='text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt. </p>
-                    {/* <div className='read_more'>{t("Read More")} <HiArrowNarrowRight/></div> */}
+                    <h1 className='title'><span className='namespan'>Name:</span><br/> Loubna Ourabi</h1>
+                    <p className='text'><span className='positionspan'>Position:</span><br/> Team leader. <br/>Senior Backend developer.</p>
                 </div>
             </div>
 
@@ -40,8 +39,7 @@ const OurTeamSection = () => {
                     <OurTeamCardsUp
                     name={"Ibrahim"}
                     fullName={"Ibrahim Karimelddin"}
-                    job={"FullStack"}
-                    age={"20"}
+                    Position={"FullStack developer"}
                     />
                 </div>
 
@@ -49,8 +47,7 @@ const OurTeamSection = () => {
                     <OurTeamCardsUp
                     name={"Nagham"}
                     fullName={"Nagham alsaade"}
-                    job={"Backend"}
-                    age={"25"}
+                    Position={"Backend developer"}
                     />
                 </div>
 
@@ -62,8 +59,7 @@ const OurTeamSection = () => {
                     <OurTeamCardsUp
                     name={"Moaz"}
                     fullName={"Moaz Dawalibi"}
-                    job={"Frontend"}
-                    age={"19"}
+                    Position={"Frontend developer"}
                     />
                 </div>
 
@@ -71,8 +67,7 @@ const OurTeamSection = () => {
                     <OurTeamCardsUp
                     name={"Bishr"}
                     fullName={"Bishr Flutter"}
-                    job={"Flutter"}
-                    age={"25"}
+                    Position={"Flutter developer"}
                     />
                 </div>
 

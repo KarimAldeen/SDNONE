@@ -20,17 +20,18 @@
                 height: 40px;
             }
             .best_partner{
+                // width: 70%;
                 margin-left: 10px;
                 .first{  
                 color: var(--solid-202-d-3-b, #202D3B);
-                // font-family: Fira Sans;
+                font-family: Fira Sans B;
                 font-size: 1.5vw;
                 font-weight: 700;
                 text-transform: uppercase;
                 }
                 .second{
                 color: var(--solid-202-d-3-b, #202D3B);
-                // font-family: Open Sans;
+                font-family: Fira Sans B;
                 font-size: 1.1vw;
                 font-weight: 600;
                 }
@@ -44,15 +45,21 @@
             justify-content: center;
             border-left: 1px solid #202D3B;
             padding-left: 13px;
+            // background: #000;
 
             .first, .second{
+                width: 85%;
                 color: var(--solid-202-d-3-b, #202D3B);
-                // font-family: Fira Sans;
+                // font-family: Fira Sans B;
                 font-size: 1.2vw;
                 font-weight: 700;
                 text-transform: capitalize;
             }
+            .first{
+                font-family: Fira Sans B;
+            }
             .second{
+                // font-family: none;
                 // font-family: Roboto !important;
                 font-size: 1.1vw !important;
                 font-weight: 400 !important;
@@ -65,7 +72,7 @@
         width: 40%;
         .Lung{
             padding: .2vw .4vw;
-            background: #4B4D9B;
+            background: linear-gradient(#4B4D9B, #4C73B8);
             border-radius: 3px;
             border: 2px solid #000;
             cursor: pointer;
@@ -79,8 +86,8 @@
         span, svg{
             color: var(--solid-202-d-3-b, #202D3B);
             text-align: center;
-            // font-family: Fira Sans;
-            font-size: .8vw;
+            // font-family: Fira Sans B;
+            font-size: .9vw;
             font-weight: 400;
             text-transform: capitalize;
             cursor: pointer;
@@ -90,7 +97,7 @@
             }
         }
         .first_link{
-            font-weight: 700;
+            font-weight: 700 !important;
         }
     }
 }
@@ -103,6 +110,16 @@
             svg{
                 font-size: 1vw;
             }
+        }
+    }
+}
+
+.ar{
+    .numder_section
+    // , .best_partner
+    {
+        .first, .second{
+            text-align: end !important;
         }
     }
 }
@@ -138,7 +155,7 @@
     .NavBar_container{
         flex-direction: column;
         .info{
-            width: 65%;
+            width: 50%;
             height: 40px ;
         }
         .best_partner{
