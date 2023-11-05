@@ -20,14 +20,14 @@ const OurTeamCardsUp = ({name, fullName, Position,  props, Key}) => {
                 <p className='TeamCard_P'>{t("Position")}: {Position}.</p>
             </div>
 
-
+            
             <div
               className="Card_2"
               onMouseEnter={handleMouseEnter}
               onMouseLeave={handleMouseLeave}
             >
               <div className={"Card_2_Top" }>
-                <img src={`../assets/Team/Team${Key}.png`} alt="" />
+                <img src={`../assets/Team/Team${Key}.jpg`} alt="" />
 
               </div>
 

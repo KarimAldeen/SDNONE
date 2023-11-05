@@ -1,7 +1,7 @@
 import { useAddMutation } from "./helpers/useAddMutation";
 
 const API = {
-    SEND_MESSAGE: `/api/`,
+    SEND_MESSAGE: `/api/send`,
 };
 
 

@@ -20,7 +20,7 @@ const OurTeamSection = () => {
 
             <div className='left_logos'>
                 <div className='left_first'>
-                <img src='/assets/Team/Team1.png' alt='team_images'/>
+                <img src='/assets/Team/Team0.jpg' alt='team_images'/>
                     {/* <OurTeamCardsUp
                     name={"Loubna"}
                     fullName={"Loubna Orabi"}
@@ -46,7 +46,7 @@ const OurTeamSection = () => {
 
                 <div className='mid_second'>
                     <OurTeamCardsUp
-                    Key={1}
+                    Key={2}
                     name={"Nagham"}
                     fullName={"Nagham alsaade"}
                     Position={"Backend developer"}
@@ -59,7 +59,7 @@ const OurTeamSection = () => {
 
                 <div className='right_first'>
                     <OurTeamCardsUp
-                    Key={1}
+                    Key={4}
                     name={"Moaz"}
                     fullName={"Moaz Dawalibi"}
                     Position={"Frontend developer"}
@@ -68,7 +68,7 @@ const OurTeamSection = () => {
 
                 <div className='right_second'>
                     <OurTeamCardsUp
-                    Key={1}
+                    Key={3}
                     name={"Bishr"}
                     fullName={"Bishr Flutter"}
                     Position={"Flutter developer"}

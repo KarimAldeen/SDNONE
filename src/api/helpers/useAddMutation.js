@@ -20,7 +20,7 @@ export const useAddMutation = (key, url , toast_notification =true) => {
 
         }
         queryClient.invalidateQueries([key]);
-     
+    
       },
       onError: (err) => {
 

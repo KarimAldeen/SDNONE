@@ -10,9 +10,8 @@ const ContactUsSection = (onSubmit,changeDisabledState, disabled,loading) => {
 
     const {t} = useTranslation();
 
-    const [isLoading, setIsLoading] = useState(false);
-    // const {mutate  , isSuccess , isLoading } = useSendMessage(); 
-
+    // const [isLoading, setIsLoading] = useState(false);
+    const {mutate  , isSuccess , isLoading } = useSendMessage(); 
 
 
 ////// validate ////// 
@@ -27,16 +26,17 @@ const ContactUsSection = (onSubmit,changeDisabledState, disabled,loading) => {
 /////// send form ////// 
 
     const handleSubmit = (values) => {
+        console.log(values);
 
         // values['name'] = values['user_name']
         values['content'] = values['message']
         let ValueContainer = {...values}
-        // mutate(ValueContainer)
+        mutate(ValueContainer)
         values['name'] =""
         values['email'] =""
         values['subject'] =""
+        values['message'] =""
         ref.current.value= "" 
-        // console.log(values);
     };
 
 
