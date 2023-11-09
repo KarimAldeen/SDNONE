@@ -39,7 +39,7 @@ const OurTeamSection = () => {
                     <OurTeamCardsUp
                     Key={1}
                     name={"Ibrahim"}
-                    fullName={"Ibrahim Karimelddin"}
+                    fullName={"Ibrahim Karimeddin"}
                     Position={"FullStack developer"}
                     />
                 </div>
