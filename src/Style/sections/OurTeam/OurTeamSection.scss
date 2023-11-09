@@ -112,16 +112,10 @@
     .Team_leader_section{
         .title{
             margin-top: 8px !important;
-            // .namespan{
-            //     font-size: ;
-            // }
             line-height: 19px !important;
             font-size: 13px !important;
         }
         .text{
-            .positionspan{
-                // font-size: ;
-            }
             font-size: 12px !important;
             line-height: 19px !important;
         }
@@ -165,7 +159,7 @@
             line-height: 10px !important;
         }
     }
-    }
+  }
 }
 
 @include devices(S_mobile){
