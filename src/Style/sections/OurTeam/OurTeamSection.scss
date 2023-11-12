@@ -139,72 +139,66 @@
 
 @include devices(mobile){
     .OurTeamPage_container{
-        width: 80% !important;
+        width: 90% !important;
         .left_first{
-            height: 21vw !important;
+            height: 24vw !important;
         }
         .mid_logos, .right_logos{
             .mid_first, .mid_second, .right_first, .right_second{
-                height: 18.2vw !important;
+                height: 20.2vw !important;
+            }
+            .mid_first, .right_first{
+                margin-bottom: 4vw !important;
             }
         }
+        
     .Team_leader_section{
-        height: 18.2vw !important;
+        height: 20.2vw !important;
         .title{
-            font-size: 10px !important;
-            line-height:11px !important;
+            font-size: 11px !important;
+            line-height:15px !important;
         }
         .text{
-            font-size: 9px !important;
-            line-height: 10px !important;
+            font-size: 11px !important;
+            line-height: 13px !important;
         }
     }
   }
 }
 
-@include devices(S_mobile){
-    .Team_leader_section{
-        .title{
-            font-size: 8px !important;
-            line-height:9px !important;
-            margin-bottom: 4px !important;
-        }
-        .text{
-            font-size: 7px !important;
-            line-height: 8px !important;
-        }
-    }
-}
-
-@include devices (iphone_mobile){
+@include devices(iphone_mobile){
     .OurTeamPage_container{
-        width: 90% !important;
-        .left_first{
-            height: 24.8vw !important;
-        }
-        .mid_logos, .right_logos{
-            .mid_first, .mid_second, .right_first, .right_second{
-                height: 22.2vw !important;
-            }
-        }
     .OurTeamPage_title{
         font-size: 30px !important;
     }   
     .OurTeamPage_text{
-        font-size: 12px !important;
+        font-size: 10px !important;
     }
+        width: 94% !important;
+        .left_first{
+            height: 27vw !important;
+        }
+        .mid_logos, .right_logos{
+            .mid_first, .mid_second, .right_first, .right_second{
+                height: 23.2vw !important;
+            }
+            .mid_first, .right_first{
+                margin-bottom: 4vw !important;
+            }
+        }
+        
     .Team_leader_section{
-        height: 22.2vw !important;
+        height: 23.2vw !important;
         .title{
-            font-size: 10px !important;
+            font-size: 8px !important;
+            line-height:11px !important;
         }
         .text{
-            margin-bottom: 3px !important;
-            font-size:9.5px !important;
-            line-height: 12px !important;
+            font-size: 8px !important;
+            line-height: 10px !important;
         }
     }
-    }
+  }
 }
 
 @include devices(XS_mobile){

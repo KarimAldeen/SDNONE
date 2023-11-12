@@ -9,7 +9,8 @@ const OurTeamSection = () => {
         <div className='OurTeamFakePage' id='OurTeam'></div>
 
         <div className='OurTeamPage_title'>
-            {t("Our Teams")}
+            {/* {t("Our Teams")} */}
+            {t("Our Specialties")}
         </div>
 
         <div className='OurTeamPage_text'>
@@ -38,7 +39,7 @@ const OurTeamSection = () => {
                 <div className='mid_first'>
                     <OurTeamCardsUp
                     Key={1}
-                    name={"Ibrahim"}
+                    name={"FullStack"}
                     fullName={"Ibrahim Karimeddin"}
                     Position={"FullStack developer"}
                     />
@@ -47,7 +48,7 @@ const OurTeamSection = () => {
                 <div className='mid_second'>
                     <OurTeamCardsUp
                     Key={2}
-                    name={"Nagham"}
+                    name={"Backend"}
                     fullName={"Nagham alsaade"}
                     Position={"Backend developer"}
                     />
@@ -60,7 +61,7 @@ const OurTeamSection = () => {
                 <div className='right_first'>
                     <OurTeamCardsUp
                     Key={4}
-                    name={"Moaz"}
+                    name={"Frontend"}
                     fullName={"Moaz Dawalibi"}
                     Position={"Frontend developer"}
                     />
@@ -69,7 +70,7 @@ const OurTeamSection = () => {
                 <div className='right_second'>
                     <OurTeamCardsUp
                     Key={3}
-                    name={"Bishr"}
+                    name={"Flutter"}
                     fullName={"Bishr Flutter"}
                     Position={"Flutter developer"}
                     />

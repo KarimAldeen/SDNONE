@@ -15,7 +15,11 @@ const OurTeamCardsUp = ({name, fullName, Position,  props, Key}) => {
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
             >
-                <h2>{t("Who's")} {name}?</h2>
+                <h2>
+                  {/* {t("Who's")}  */}
+                  {name}
+                  {/* ? */}
+                  </h2>
                 <p className='TeamCard_P'>{t("FullName")}: {fullName}.</p>
                 <p className='TeamCard_P'>{t("Position")}: {Position}.</p>
             </div>

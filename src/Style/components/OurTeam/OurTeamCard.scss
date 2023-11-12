@@ -21,7 +21,7 @@
         height: 100%;
         z-index: -1;
         position: absolute;
-        height: 3.3vw;
+        height: 2.5vw;
         width: 100%;
         border-radius: 1vw;
         cursor: pointer;
@@ -34,8 +34,8 @@
         h2{
             text-align: center;
             font-weight: 700;
-            font-size: 18px;
-            color: #000;
+            font-size: 24px;
+            color: var(--text);
             width: 80%;
         }
         .TeamCard_P{
@@ -46,14 +46,7 @@
             color: #fff;
         }
     }
-    // .Card_1_Down{
-    //     display: flex;flex-direction: column-reverse;
-    //     transform: translateY(10vw);
-    //     // align-items: end;
-    //     // justify-content: end;
-    //     height: 5.7vw;
-    // }
-    .Card_1_Hovered,.Card_1_HoveredDown {
+    .Card_1_Hovered {
         flex-direction: column !important;
         z-index: 1;
         transform: translateY(-9.5vw);
@@ -63,9 +56,6 @@
         display: flex;
         align-items: center;
     }
-    .Card_1_HoveredDown{
-        // transform: translateY(16vw) !important;
-    }
 }
 //res
 
@@ -73,7 +63,7 @@
     .Card_1{
         line-height: 10px !important;
         h2{
-            font-size: 15px !important;
+            font-size: 19px !important;
         }
         .TeamCard_P{
             font-size: 9px !important; 
@@ -85,7 +75,7 @@
     .Card_1{
         line-height: 4px !important;
         h2{
-            font-size: 11px !important;
+            font-size: 15px !important;
             margin-bottom: 8px !important;
         }
         .TeamCard_P{
@@ -99,7 +89,7 @@
     .Card_1{
         line-height: 2px !important;
         h2{
-            font-size: 9px !important;
+            font-size:12px !important;
             margin-bottom: 4px !important;
         }
         .TeamCard_P{
@@ -109,15 +99,19 @@
 }
 
 @include devices(S_mobile){
+    .Card_1_Hovered{
+        height: 11vw !important;
+        transform: translateY(-11.5vw) !important;
+    }
     .Card_1{
         // height: 6.7vw !important;
         line-height: 0px !important;
         h2{
-            font-size: 8px !important;
+            font-size: 12px !important;
             margin-bottom: 12px !important;
         }
         .TeamCard_P{
-            font-size: 6px !important;
+            font-size: 7px !important;
             margin-bottom: 11px !important;
         }
     }
@@ -126,11 +120,11 @@
 @include devices(iphone_mobile){
     .Card_1{
         h2{
-            font-size: 7.5px !important;
+            // font-size: 9px !important;
             margin-bottom: 9px !important;
         }
         .TeamCard_P{
-            font-size: 5.2px !important;
+            font-size: 5.5px !important;
             margin-bottom: 10px !important;
         }
     }
@@ -139,12 +133,12 @@
 @include devices(XS_mobile){
     .Card_1{
         h2{
-            font-size: 5.5px !important;
+            font-size: 7px !important;
             margin-bottom: 8px !important;
             z-index: 9999 !important;
         }
         .TeamCard_P{
-            font-size: 4.2px !important;
+            font-size: 4.5px !important;
             margin-bottom: 7px !important;
         }
     }
