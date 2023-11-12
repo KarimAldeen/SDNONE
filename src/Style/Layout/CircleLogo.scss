@@ -56,7 +56,7 @@
     }
 }
 
-@include devices(tablet){
+@include devices(iphone_mobile){
     .container{
         left: 45%;
         bottom: 120px;
