@@ -72,6 +72,10 @@
 }
 
 @include devices(tablet){
+    .Card_1_Hovered{
+        height: 11vw !important;
+        transform: translateY(-11.5vw) !important;
+    }
     .Card_1{
         line-height: 4px !important;
         h2{
@@ -99,10 +103,6 @@
 }
 
 @include devices(S_mobile){
-    .Card_1_Hovered{
-        height: 11vw !important;
-        transform: translateY(-11.5vw) !important;
-    }
     .Card_1{
         // height: 6.7vw !important;
         line-height: 0px !important;
@@ -118,6 +118,10 @@
 }
 
 @include devices(iphone_mobile){
+    .Card_1_Hovered{
+        height: 12.5vw !important;
+        transform: translateY(-13vw) !important;
+    }
     .Card_1{
         h2{
             // font-size: 9px !important;

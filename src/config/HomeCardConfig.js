@@ -15,6 +15,11 @@ const HomeCardConfig = () => {
                 />
 
                 <HomePageCard2
+                BorderColor={"#fff"}
+                CardBackGround={"var(--secondary)"}
+                Iconbackground={"#000"}
+                color={"#fff"}
+                color2={"#fff"}
                 icon={<img src='/assets/HomeLogo.png' alt='Homelogo'/>}
                 title={t("Graphical Representation")}
                 text={t("If the path is beautiful, let us not k where it leads. my religion is very simple.")}
