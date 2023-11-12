@@ -3,8 +3,8 @@ import { useTranslation } from 'react-i18next'
 
 const Moaz = () => {
   const {t} = useTranslation();
-  let What_the_language = localStorage.getItem('Lung')  ?? "en";
-  console.log(What_the_language);
+  // let What_the_language = localStorage.getItem('Lung')  ?? "en";
+  // console.log(What_the_language);
   return(
     <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -197,9 +197,9 @@ const Moaz = () => {
           fontSize={16}
           fontFamily="OpenSans-Regular, Open Sans"
         >
-          {
-            What_the_language === "ar" ?
-            <>
+          {/* { */}
+            {/* What_the_language === "ar" ? */}
+            {/* <>
              <tspan x={130} y={17} className='TSN_1'>
            {t(" The level of professionalism and attention to detail")}{" "}
           </tspan>
@@ -221,8 +221,8 @@ const Moaz = () => {
           <tspan x={80} y={147} className='TSN_7'>
             {t("of their clients.")}{" "}
           </tspan>
-            </>
-            : 
+            </> */}
+            {/* :  */}
             <>
              <tspan x={0} y={17} className='TSN_1'>
            {t(" The level of professionalism and attention to detail")}{" "}
@@ -246,7 +246,7 @@ const Moaz = () => {
             {t("of their clients.")}{" "}
           </tspan>
             </>
-          }
+          {/* // } */}
          
         </text>
         <text
