@@ -146,13 +146,13 @@
         }
     }
 }
-.ar{
-    .links{
-        span, .about_us_link{
-            font-size: 9px !important;
-        }
-    }
-}
+// .ar{
+//     .links{
+//         span, .about_us_link{
+//             font-size: 9px !important;
+//         }
+//     }
+// }
 .text{
     color: var(--solid-fefefe, #FEFEFE);
     // font-family: Fira Sans;
@@ -285,15 +285,15 @@
             }
         } 
     }  
-    .ar{
-        .footer_links{
-            .links{
-                span{
-                    font-size: 7px !important;
-                }   
-            }
-        }
-    }     
+    // .ar{
+    //     .footer_links{
+    //         .links{
+    //             span{
+    //                 font-size: 7px !important;
+    //             }   
+    //         }
+    //     }
+    // }     
 }
 
 // @include devices(S_mobile){
