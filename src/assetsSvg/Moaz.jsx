@@ -227,24 +227,31 @@ const Moaz = () => {
              <tspan x={0} y={17} className='TSN_1'>
            {t(" The level of professionalism and attention to detail")}{" "}
           </tspan>
+          <br/>
           <tspan x={0} y={43} className='TSN_2'>
             {t("displayed by SDN is truly commendable. Deadlines")}{" "}
           </tspan>
+          <br/>
           <tspan x={0} y={69} className='TSN_3'>
             {t("were not just met but exceeded, and the quality of")}{" "}
           </tspan>
+          <br/>
           <tspan x={0} y={95} className='TSN_4'>
             {t("their work is nothing short of stellar. It's evident")}{" "}
           </tspan>
+          <br/>
           <tspan x={0} y={121} className='TSN_5'>
             {t("that they don't just consider themselves a service")}{" "}
           </tspan>
+          <br/>
           <tspan x={0} y={147} className='TSN_6'>
             {t("provider; they're genuinely invested in the success")}{" "}
           </tspan>
+          <br/>
           <tspan x={0} y={177} className='TSN_7'>
             {t("of their clients.")}{" "}
           </tspan>
+          <br/>
             </>
           {/* // } */}
          
