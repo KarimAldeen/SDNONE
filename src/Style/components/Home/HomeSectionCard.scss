@@ -1,88 +1,88 @@
-.HomePageCard_container{
-    width: 27%;
-    height: 180px;
-    margin-top: 15px;
-    margin-left: 12px;
-    box-shadow: 6px 10px 18px 6px rgba(0, 0, 0, 0.2);
-    background: #FFF;
-    display: flex;
-    .HomePageCard{
-        display: flex;justify-content: center;align-items: center;flex-direction: column;
-        border-radius: 11px;
-        height: 180px;
-        border: 0.59px solid #F2F2F2;
-        background: #FFF;
-        .HomePageCard_icon{
-            background: #4B4D9B;
-            background: linear-gradient(to bottom right, #4B4D9B, #4C73B8);
-            width: 37px;
-            height: 37px;
-            display: flex;align-items: center;justify-content: center;
-            border-radius: 100px;
-            margin-top: .5vw;
-            .HomePageCard_svg, img{
-                width: 50%;
-            }
-        }
-        .HomePageCard_title{
-            margin-top: .5vw;
-            margin-bottom: 1.2vw;
-            color: #000;
-            text-align: center;
-            // font-family: source_sans_pro_SB;
-            width: 45%;
-            font-size: 9px;
-            font-weight: 900;
-            letter-spacing: 0;
-        }
-        .HomePageCard_text{
-            width:71%;
-            margin-top: 0px;
-            color: #222A41;
-            text-align: center;
-            // font-family: Sintony;
-            font-size: 9px;
-            font-weight: 400;
-        }
-    }
-}
+// .HomePageCard_container{
+//     width: 27%;
+//     height: 180px;
+//     margin-top: 15px;
+//     margin-left: 12px;
+//     box-shadow: 6px 10px 18px 6px rgba(0, 0, 0, 0.2);
+//     background: #FFF;
+//     display: flex;
+//     .HomePageCard{
+//         display: flex;justify-content: center;align-items: center;flex-direction: column;
+//         border-radius: 11px;
+//         height: 180px;
+//         border: 0.59px solid #F2F2F2;
+//         background: #FFF;
+//         .HomePageCard_icon{
+//             background: #4B4D9B;
+//             background: linear-gradient(to bottom right, #4B4D9B, #4C73B8);
+//             width: 37px;
+//             height: 37px;
+//             display: flex;align-items: center;justify-content: center;
+//             border-radius: 100px;
+//             margin-top: .5vw;
+//             .HomePageCard_svg, img{
+//                 width: 50%;
+//             }
+//         }
+//         .HomePageCard_title{
+//             margin-top: .5vw;
+//             margin-bottom: 1.2vw;
+//             color: #000;
+//             text-align: center;
+//             // font-family: source_sans_pro_SB;
+//             width: 45%;
+//             font-size: 9px;
+//             font-weight: 900;
+//             letter-spacing: 0;
+//         }
+//         .HomePageCard_text{
+//             width:71%;
+//             margin-top: 0px;
+//             color: #222A41;
+//             text-align: center;
+//             // font-family: Sintony;
+//             font-size: 9px;
+//             font-weight: 400;
+//         }
+//     }
+// }
 
 
-.ar{
-    .HomePageCard_title{
-        font-size: 11px !important;
-    }
-    .HomePageCard_text{
-        font-size: 10px !important;
-    }
-}
+// .ar{
+//     .HomePageCard_title{
+//         font-size: 11px !important;
+//     }
+//     .HomePageCard_text{
+//         font-size: 10px !important;
+//     }
+// }
 
-// // res 
-@include devices (SmallLaptop){
-    .HomePageCard_container{
-        width: 33%;
-    }
-}
+// // // res 
+// @include devices (SmallLaptop){
+//     .HomePageCard_container{
+//         width: 33%;
+//     }
+// }
 
-@include devices (iphone_mobile) {
-    .HomePageCard_container{
-        height: 160px !important;
-        .HomePageCard{
-            height: 160px !important;
-            justify-content: start;
-            .HomePageCard_icon{
-                margin-bottom: 1.7vw !important;
-                margin-top: 3vw !important;
-                width: 25px !important;
-                height: 25px !important;
-            }
-            .HomePageCard_title{
-                margin-bottom: 1.6vw;
-                font-size: 7px !important;
-            }
-            .HomePageCard_text{
-                font-size: 7.5px !important; 
-            }
-        }   
-    }
-}
+// @include devices (iphone_mobile) {
+//     .HomePageCard_container{
+//         height: 160px !important;
+//         .HomePageCard{
+//             height: 160px !important;
+//             justify-content: start;
+//             .HomePageCard_icon{
+//                 margin-bottom: 1.7vw !important;
+//                 margin-top: 3vw !important;
+//                 width: 25px !important;
+//                 height: 25px !important;
+//             }
+//             .HomePageCard_title{
+//                 margin-bottom: 1.6vw;
+//                 font-size: 7px !important;
+//             }
+//             .HomePageCard_text{
+//                 font-size: 7.5px !important; 
+//             }
+//         }   
+//     }
+// }

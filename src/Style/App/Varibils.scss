@@ -2,18 +2,19 @@
 
 :root {
     --primary: black;
-    --secondary: #ffc801;
-    --text: white;
+    --secondary: #0195ff;
+    --title: #0378cb;
+    --text:#202D3B;
     --bg: #242628;
     --bg2: #33383d;
     --white: white;
     --black: black;
     --BGLogo : white ;
-    --BGElement : #ffc801 ;
+    --BGElement : #202D3B ;
 
 }
 :root:has(.dark){
-    --from_api: #01ffd5;
+    --from_api: #004cff;
 
     --primary: black;
     --secondary: var(--from_api);

@@ -1,7 +1,7 @@
 .OurServicesPage_container_main{
     width: 100%;
     position: relative;
-    min-height: 40vw ;
+    min-height: 40vw;
     .OurServicesFakePage{
         height:30vh;
         position:absolute;
@@ -10,8 +10,9 @@
     }
     .ContactUsFrame{
         position: absolute;
+        z-index: -1 !important;
         width: 100%;
-        top: -940px;
+        top: -900px;
     }
     .OurServicesPage_container{
     margin: auto;
@@ -21,7 +22,7 @@
         .OurServicesPage_left{
             width: 50%;
             .OurServicesPage_title{
-                color: #4C73B8;
+                color: var(--title);
                 font-family: Fira Sans B;
                 font-size: 80px;
                 font-weight: 700;

@@ -1,7 +1,9 @@
 .CopyRight_container{
     width: 100%;
+    margin: auto;
     height: 10vh;
-    background: var(--Grad-1, linear-gradient(119deg, #4B4D9B 43.86%, #4C73B8 92.43%));
+    // background: var(--Grad-1, linear-gradient(119deg, #4B4D9B 43.86%, #4C73B8 92.43%));
+    background: var(--secondary);
     display: flex;justify-content: center;align-items: center;
     p{
         color: var(--solid-fefefe, #FEFEFE);
@@ -10,6 +12,7 @@
         font-weight: 700;
         letter-spacing: 0.48px;
         margin-top: 20px;
+        margin-left: 20px;
         }
 }
 

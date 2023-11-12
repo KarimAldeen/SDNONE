@@ -12,7 +12,7 @@
     }
     .OurTeamPage_title{
         width: 100%;
-        color: #4C73B8;
+        color: var(--title);
         text-align: center;
         font-family: Fira Sans B;
         font-size: 78px;
@@ -66,14 +66,14 @@
                     line-height: 24px;
                     .namespan{
                         font-weight: 700;
-                        color: #4C73B8;
+                        color: var(--title);
                     }
                 }   
                 
                 .text{
                     .positionspan{
                         font-weight: 700;
-                        color:  #4C73B8;
+                        color: var(--title);
                     }
                     width: 80%;
                     margin-inline: auto;

@@ -10,9 +10,9 @@ const OurServicesSection = () => {
     const {t} = useTranslation();
 
   return (
-    <motion.div className='OurServicesPage_container_main'
-    whileInView={{ opacity: [0 ,1] }}
-    transition={{ duration: 1.5 }}
+    <div className='OurServicesPage_container_main'
+    // whileInView={{ opacity: [0 ,1] }}
+    // transition={{ duration: 1.5 }}
     >
         {/* Fake point for position fixed */}
         <div className='OurServicesFakePage' id='OurServices'></div>
@@ -44,7 +44,7 @@ const OurServicesSection = () => {
                 </div>
 
         </div>
-    </motion.div>
+    </div>
     
   )
 }

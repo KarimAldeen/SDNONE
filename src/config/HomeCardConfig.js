@@ -1,5 +1,5 @@
 import React from 'react'
-import HomePageCard from '../components/Home/HomeSectionCard'
+import HomePageCard2 from '../components/Home/HomeSectionCard2'
 import { useTranslation } from 'react-i18next'
 import HomePageCard_svg from '../assetsSvg/HomePageCard_svg1';
 
@@ -8,19 +8,19 @@ const HomeCardConfig = () => {
 
   return (
         <>
-                <HomePageCard
+                <HomePageCard2
                 icon={<HomePageCard_svg/>}
                 title={t("SEO Consultancy")}
                 text={t("If the path is beautiful, let us not k where it leads. my religion is very simple.")}
                 />
 
-                <HomePageCard
+                <HomePageCard2
                 icon={<img src='/assets/HomeLogo.png' alt='Homelogo'/>}
                 title={t("Graphical Representation")}
                 text={t("If the path is beautiful, let us not k where it leads. my religion is very simple.")}
                 />
 
-                <HomePageCard
+                <HomePageCard2
                 icon={<img src='/assets/HomeLogo2.png' alt='Homelogo'/>}
                 title={t("Boost Website Ranking")}
                 text={t("If the path is beautiful, let us not k where it leads. my religion is very simple.")}
