@@ -101,6 +101,7 @@
     .home_container{
         margin-bottom: 450px;
         .mid_section{
+            margin-left: 20px !important;
             margin: auto;
             width: 50%;
             .mid_h1{
@@ -137,7 +138,7 @@
 
 @include devices (mobile){
     .home_container{
-        margin-bottom: 350px;
+        margin-bottom: 400px;
         .mid_section{
             width: 60% !important;
             .mid_h1{
@@ -161,7 +162,7 @@
             }
             .cards{
                 top: 535px;
-                left: 10px;
+                left: 40px;
                 width: 90%;
             }
             
@@ -173,7 +174,7 @@
 
 @include devices (iphone_mobile){
     .home_container{
-        margin-bottom: 200px;
+        margin-bottom: 300px;
         .mid_section{
             .mid_h1{
                 font-size: 20px !important;
@@ -184,17 +185,18 @@
                 line-height: 23px !important;
             }
             .mid_p{
-                font-size: 13px !important;
+                font-size: 12px !important;
                 width: 90%;
             }
             .button_container{ 
                 .contact_us_button{
+                    height: 30px !important;
                     font-size: 10px !important;
                 }
             }
             .cards{
                 top: 455px;
-                left: 10px;
+                left: 30px;
                 width: 90%;
             }
             

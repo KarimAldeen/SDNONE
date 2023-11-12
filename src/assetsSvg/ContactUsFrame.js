@@ -25,7 +25,7 @@ const ContactUsFrame = () => {
       opacity="0.5"
       d="M1073 0.00012207H823.009L443.001 1040H692.993L1073 0.00012207Z"
       // fill="#2C72DC"
-      fill="#004cff"
+      fill="#366cff"
     />
     <path
       opacity="0.5"

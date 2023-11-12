@@ -17,43 +17,6 @@
         }
         margin-right: 3px;
     }
-    // .Company_name{
-    //     display: flex;
-    //     width: 70%;
-    //     margin-top: 15px;
-    //     .first, .third, .second{
-    //         display: flex; flex-direction: column;
-    //         width: 29%;
-    //         // align-items: center;justify-content: center;
-    //         h1{
-    //             font-size: 20px;
-    //             font-weight: 700;
-    //             color: #fff;
-    //             margin-bottom: 0px ;
-    //         }
-    //         .D, .N{
-    //             margin-left: 2px;
-    //         }
-    //         p{
-    //             // margin-left: 2px;
-    //             font-size: 5px;
-    //             font-weight: 300;
-    //             color: #fff;
-    //         }
-    //         .Managment, .Development{
-    //             margin-left: 2px;
-    //         }
-    //     }
-    //     .second{
-    //         width: 42%;
-    //         p{
-    //             font-size: 4.5px;
-    //         }
-    //     }
-    // }
-
-
-
     .company_name2{
         width: 70%;
         margin-top: 15px;
@@ -70,5 +33,40 @@
             font-weight: 300;
             color: #fff;
         }
+    }
+}
+
+@include devices(tablet){
+    .container{
+        bottom: 110px;
+        width: 100px;
+        height: 100px;
+        h1{
+            font-size: 17px !important;
+        }
+        pre{
+            font-size: 3px !important;
+        }   
+    }
+}
+
+@include devices(mobile){
+    .container{
+        left: 44%;  
+    }
+}
+
+@include devices(tablet){
+    .container{
+        left: 45%;
+        bottom: 120px;
+        width: 80px;
+        height: 80px;
+        h1{
+            font-size: 13px !important;
+        }
+        pre{
+            font-size: 2.2px !important;
+        }   
     }
 }
