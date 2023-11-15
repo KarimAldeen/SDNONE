@@ -8,7 +8,8 @@ const OurTeamSection = () => {
     <div className='OurTeamPage_container'>
         {/* fake point for onClick navbar links */}
         <div className='OurTeamFakePage' id='OurTeam'></div>
-
+        
+        {/* Title and info */}
         <div className='OurTeamPage_title'>
             {/* {t("Our Teams")} */}
             {t("Our Specialties")}
@@ -20,18 +21,22 @@ const OurTeamSection = () => {
 
         <div className='OurTeamPage_logos'>
 
+        {/* mid section */}
+
             <div className='left_logos'>
                 <div className='left_first'>
                 <img src='/assets/Team/Team0.jpg' alt='team_images'/>
                 </div>
+                
+                {/* team leader section */}
+
                 <div className='Team_leader_section'>
                     <h1 className='title'><span className='namespan'>Name:</span><br/> Loubna Ourabi</h1>
                     <p className='text'><span className='positionspan'>Position:</span><br/> Team leader. <br/>Senior Backend developer.</p>
                 </div>
             </div>
-
+        {/* mid section */}
             <div className='mid_logos'>
-
                 <div className='mid_first'>
                     <OurTeamCardsUp
                     Key={1}
@@ -52,6 +57,7 @@ const OurTeamSection = () => {
 
             </div>
 
+        {/* right section */}
             <div className='right_logos'>
 
                 <div className='right_first'>
