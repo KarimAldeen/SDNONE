@@ -6,6 +6,7 @@ const OurTeamSection = () => {
     const {t} = useTranslation();
   return (
     <div className='OurTeamPage_container'>
+        {/* fake point for onClick navbar links */}
         <div className='OurTeamFakePage' id='OurTeam'></div>
 
         <div className='OurTeamPage_title'>
@@ -22,11 +23,6 @@ const OurTeamSection = () => {
             <div className='left_logos'>
                 <div className='left_first'>
                 <img src='/assets/Team/Team0.jpg' alt='team_images'/>
-                    {/* <OurTeamCardsUp
-                    name={"Loubna"}
-                    fullName={"Loubna Orabi"}
-                    Position={"Team leader"}
-                    /> */}
                 </div>
                 <div className='Team_leader_section'>
                     <h1 className='title'><span className='namespan'>Name:</span><br/> Loubna Ourabi</h1>
@@ -71,7 +67,7 @@ const OurTeamSection = () => {
                     <OurTeamCardsUp
                     Key={3}
                     name={"Flutter"}
-                    fullName={"Bishr Flutter"}
+                    fullName={"Bishr           "}
                     Position={"Flutter developer"}
                     />
                 </div>

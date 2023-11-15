@@ -11,9 +11,6 @@ const HomeSection = () => {
     <div className='home_container'>
 
         {/* left Section */}
-        {/* <div className='left_section'>
-            <BigLogo/>
-        </div> */}
 
         <div className='mid_section'>
 

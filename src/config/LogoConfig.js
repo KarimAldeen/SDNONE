@@ -4,7 +4,8 @@ import OurPartner from '../components/OurPartner/DynamicLogo'
 const LogoConfig = () => {
   return (
     <div className='PartnerPage_logos'>
-
+      
+      {/* partner logo */}
         <OurPartner
           image1={"/assets/OurPartner/1.png"}
           image2={"/assets/OurPartner/2.png"}

@@ -8,7 +8,8 @@ const ServiceCardRightConfig = () => {
     const {t} = useTranslation();
 
   return (
-    <>
+    <>  
+      {/* service card */}
         <ServiceCard
         color={"#F41B4D"}
         icon={<FaMobileAlt/>}

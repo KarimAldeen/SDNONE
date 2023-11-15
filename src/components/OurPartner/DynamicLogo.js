@@ -4,7 +4,7 @@ const OurPartner = (props) => {
   return (
 
     <div className='logo_section'>
-      
+      {/* partner dynamic logo */}
         <div className='logo_container'>
             <img src={`${props.image1}`} />
         </div>

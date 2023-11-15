@@ -9,7 +9,7 @@ const ServiceCardLeftConfig = () => {
 
   return (
     <>
-
+      {/* service card */}
         <ServiceCard
         color={"#3C30B0"}
         icon={<FaPassport/>}

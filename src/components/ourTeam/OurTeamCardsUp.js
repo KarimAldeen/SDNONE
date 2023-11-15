@@ -9,9 +9,9 @@ const OurTeamCardsUp = ({name, fullName, Position,  props, Key}) => {
 
   return (
     <div className='main_card'>
+      {/* main card using useHover hook */}
             <div
-            className={isHoveredClassName
-          }
+            className={isHoveredClassName}
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
             >
@@ -24,7 +24,7 @@ const OurTeamCardsUp = ({name, fullName, Position,  props, Key}) => {
                 <p className='TeamCard_P'>{t("Position")}: {Position}.</p>
             </div>
 
-            
+        {/* onHover Card */}
             <div
               className="Card_2"
               onMouseEnter={handleMouseEnter}

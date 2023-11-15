@@ -34,7 +34,6 @@
                 min-width: 33%; 
                 margin-bottom: 30px;
                 padding: 0px 20px;
-                // height: 160px;
                 display: flex;justify-content: center;align-items: center;
                 img{
                     width: 60%;
@@ -45,8 +44,8 @@
     }
 }
 
-
 //res
+
 @include devices (mobile){
     .PartnerPage_container{
         width: 80% !important;
@@ -56,8 +55,7 @@
         .PartnerPage_text{
             font-size: 10px !important;
         }
-    }
-    
+    }   
 }
 
 @include devices (iphone_mobile){

@@ -1,10 +1,9 @@
 import React from 'react'
-import Header from './Header'
 import NavBar from './NavBar'
 import {motion} from 'framer-motion'
 const MainNavBar = () => {
   return (
-    // MainNavBar was made for positon fixed and it contain Header.js and NavBar.js  
+    // MainNavBar was made for positon fixed and it contain NavBar.js  
     <motion.div 
 
     initial={{ opacity: 0, x:-300 }}
@@ -12,7 +11,6 @@ const MainNavBar = () => {
     transition={{ duration: 0.5 }}
     className='mainNavBar_container' id='Home'>
         <div className='MainNavBar'>
-          <Header/>
           <NavBar/>
         </div>
     </motion.div>

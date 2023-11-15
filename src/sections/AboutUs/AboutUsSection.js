@@ -14,8 +14,8 @@ const AboutUsSection = () => {
     
     className='AboutUsPage_container'>
         
-      {/* Fake point for position fixed */}
-      <div className='AboutUsFakePage' id='About'></div>
+        {/* fake point for onClick navbar links */}
+        <div className='AboutUsFakePage' id='About'></div>
 
       {/* image section */}
       <div className='AboutUsPage_left'>

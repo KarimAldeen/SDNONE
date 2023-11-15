@@ -8,6 +8,7 @@ const HomeCardConfig = () => {
 
   return (
         <>
+         {/* home cards */}
                 <HomePageCard2
                 icon={<HomePageCard_svg/>}
                 title={t("SEO Consultancy")}

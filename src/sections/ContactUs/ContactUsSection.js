@@ -10,7 +10,6 @@ const ContactUsSection = (onSubmit,changeDisabledState, disabled,loading) => {
 
     const {t} = useTranslation();
 
-    // const [isLoading, setIsLoading] = useState(false);
     const {mutate  , isSuccess , isLoading } = useSendMessage(); 
 
 
@@ -46,7 +45,7 @@ const ContactUsSection = (onSubmit,changeDisabledState, disabled,loading) => {
     transition={{ duration: 1.5 }}
     >
 
-        {/* Fake point for position fixed */}
+        {/* fake point for onClick navbar links */}
         <div className='ContactUsFakePage' id='ContactUs'></div>
 
         {/* contact us background */}

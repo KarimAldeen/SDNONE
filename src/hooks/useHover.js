@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-
 const useHover = () => {
   const [isHovered, setIsHovered] = useState(false);
 
@@ -19,3 +18,5 @@ const useHover = () => {
 };
 
 export default useHover;
+
+// this hook made for onHover something...

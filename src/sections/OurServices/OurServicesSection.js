@@ -14,7 +14,7 @@ const OurServicesSection = () => {
     // whileInView={{ opacity: [0 ,1] }}
     // transition={{ duration: 1.5 }}
     >
-        {/* Fake point for position fixed */}
+        {/* fake point for onClick navbar links */}
         <div className='OurServicesFakePage' id='OurServices'></div>
 
         {/* ourService Frame */}
@@ -25,7 +25,6 @@ const OurServicesSection = () => {
                 <div className='OurServicesPage_left'>
                     <h1 className='OurServicesPage_title'>{t("Our Services")}</h1>
                     <div className='img_bg'><img src='/assets/OurServices.jpg' alt='service_img'/></div>
-                    {/* <img src='/assets/Services.png' alt='service_img'/> */}
                 </div>
 
                 {/* cards */}

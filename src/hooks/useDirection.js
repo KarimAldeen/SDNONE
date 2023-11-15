@@ -8,3 +8,5 @@ const useDirection = () => {
 
 
   export default useDirection 
+
+  // this hook made for lang direction
