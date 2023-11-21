@@ -53,9 +53,10 @@ const Footer = () => {
                     <div className='footer_head_office'>
 
                         <h1 className='title'>{t("Head Office")}</h1>
-                        <p className='text'>Syria</p>
-                        <p className='text'>SDN@gmail.com</p>
-                        <p className='text'>(000) 0000-0000</p>
+                        <p className='text'>Syria-Qatar-Oman </p>
+                        <p className='text'>Info@sdnone.com</p>
+                        <p className='text'>+974 77280008</p>
+                        <p className='text'>+963 966338669</p>
 
                     </div>
 
@@ -76,7 +77,7 @@ const Footer = () => {
 
         {/* CopyRight section */}
         <div className='CopyRight_container'>
-            <p>{t("Copyright © 2024. All right reserved")}</p>
+            <p>{t("Copyright © 2018. All right reserved")}</p>
         </div>
     </div>
   )

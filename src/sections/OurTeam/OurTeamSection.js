@@ -61,8 +61,8 @@ const OurTeamSection = () => {
                 </div>
                 <div className='mid_second'>
                     <OurTeamCardsUp
-                    Key={10}
-                    EndPoint={"png"}
+                    Key={14}
+                    EndPoint={"jpg"}
                     name={"Designer"}
                     fullName={"Elia"}
                     Position={"Designer"}
@@ -100,8 +100,8 @@ const OurTeamSection = () => {
 
                 <div className='right_second'>
                     <OurTeamCardsUp
-                    Key={10}
-                    EndPoint={"png"}
+                    Key={17}
+                    EndPoint={"jpg"}
                     name={"Social Media"}
                     fullName={"walid"}
                     Position={"Social Media"}
