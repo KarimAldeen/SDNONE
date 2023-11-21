@@ -27,7 +27,7 @@ const HomeSection = () => {
         {/* right Section */}
 
         <div className='right_section'>
-            <img src='/assets/HomePageMobile.png' alt='mobile'/>
+            <img src='/assets/Homecection.png' alt='mobile'/>
         </div>
     </div>
   )

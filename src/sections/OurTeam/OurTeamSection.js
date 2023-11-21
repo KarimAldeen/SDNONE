@@ -24,33 +24,33 @@ const OurTeamSection = () => {
 
         {/* mid section */}
 
-            <div className='left_logos'>
+            {/* <div className='left_logos'>
                 <div className='left_first'>
                 <img src='/assets/Team/Team0.jpg' alt='team_images'/>
                 </div>
 
-                {/* team leader section */}
 
                 <div className='Team_leader_section'>
                     <h1 className='title'><span className='namespan'>{t("Name")}:</span><br/> Loubna Ourabi</h1>
                     <p className='text'><span className='positionspan'>{t("Position")}:</span><br/> Team leader. <br/>Senior Backend developer.</p>
                 </div>
-            </div>
+            </div> */}
 
         {/* mid section */}
 
             <div className='mid_logos'>
                 <div className='mid_first'>
                     <OurTeamCardsUp
-                    Key={10}
+                    Key={15}
                     EndPoint={"png"}
-                    name={"FullStack"}
-                    fullName={"Ibrahim Karimeddin"}
-                    Position={"FullStack developer"}
+                    name={"CEO"}
+                    fullName={"Rida Kabani"}
+                    Position={"CEO"}
                     />
                 </div>
+                
 
-                <div className='mid_second'>
+                <div className='mid_first'>
                     <OurTeamCardsUp
                     Key={2}
                     EndPoint={"jpg"}
@@ -59,14 +59,36 @@ const OurTeamSection = () => {
                     Position={"Backend developer"}
                     />
                 </div>
+                <div className='mid_second'>
+                    <OurTeamCardsUp
+                    Key={10}
+                    EndPoint={"png"}
+                    name={"Flutter"}
+                    fullName={"Bishr Alkhoja"}
+                    Position={"Flutter developer"}
+                    />
+                </div>
 
             </div>
 
         {/* right section */}
         
             <div className='right_logos'>
+            <div className='mid_first'>
+                    <OurTeamCardsUp
+                    Key={0}
+                    EndPoint={"jpg"}
+                    name={"Team Leader"}
+                    fullName={"Loubna Ourabi"}
+                    Position={"Team Leader & Senior Backend developer"}
+                    />
+                </div>
+                
+            
 
+                
                 <div className='right_first'>
+                    
                     <OurTeamCardsUp
                     Key={4}
                     EndPoint={"jpg"}
@@ -78,13 +100,40 @@ const OurTeamSection = () => {
 
                 <div className='right_second'>
                     <OurTeamCardsUp
-                    Key={3}
-                    EndPoint={"jpg"}
-                    name={"Flutter"}
-                    fullName={"Bishr Alkhoja"}
-                    Position={"Flutter developer"}
+                    Key={10}
+                    EndPoint={"png"}
+                    name={"Social Media"}
+                    fullName={"walid"}
+                    Position={"Social Media"}
                     />
                 </div>
+
+            </div>
+
+
+            <div className='right_logos'>
+
+            <div className='mid_first'>
+                    <OurTeamCardsUp
+                    Key={10}
+                    EndPoint={"png"}
+                    name={"FullStack"}
+                    fullName={"Ibrahim Karimeddin"}
+                    Position={"FullStack developer"}
+                    />
+                </div>
+
+                <div className='right_second'>
+                    <OurTeamCardsUp
+                    Key={3}
+                    EndPoint={"jpg"}
+                    name={"Designer"}
+                    fullName={"Elia"}
+                    Position={"Ui & Ux"}
+                    />
+                </div>
+
+                
 
             </div>
         

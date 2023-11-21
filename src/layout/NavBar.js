@@ -35,7 +35,9 @@ const NavBar = () => {
 
                 <a href='#Home'><span className='first_link'>{t("Home")}</span></a>
                 <a href='#About'><span>{t("About")}</span></a>
-                <a href='#OurServices'><span>{t("Service")} <MdKeyboardArrowDown/> </span></a>
+                <a href='#OurServices'><span>{t("Service")}
+                 {/* <MdKeyboardArrowDown/> */}
+                  </span></a>
                 <a href='#OurTeam'><span>{t("Team")}</span></a>
                 <a href='#ContactUs'><span>{t("Contact")}</span></a>
                 <BtnTranslate/>
