@@ -96,6 +96,9 @@
                         h1 ,.title{
                             margin-bottom:22.5px;
                         }
+                        p{
+                            line-height: 17px;
+                        }
                     }
 
                     .footer_opening_hour{
@@ -114,6 +117,11 @@
     font-weight: 400;
     text-transform: capitalize;
     line-height: 3px;
+    margin-bottom: 10px;
+}
+.location{
+    line-height: 10px;
+    margin-bottom: 8px;
 }
 
 //res
@@ -163,6 +171,7 @@
                 }
                 p{
                     font-size: 10px !important;
+                    line-height: 10px !important;
                 }
             }
             .footer_opening_hour{
@@ -174,7 +183,7 @@
                 }
                 p{
                     width: 100% !important;
-                    font-size: 7px !important;
+                    font-size: 9px !important;
                 }
             }
         } 
@@ -217,15 +226,21 @@
             .footer_head_office{
                 h1, .title{
                     font-size: 8px !important;
-                    margin-bottom: 20px !important;
+                    margin-bottom: 17.5px !important;
+                }
+                .location{
+                    line-height: 9px !important;
+                    // margin-bottom: 8px;
                 }
                 p{
+                    // display: none;
                     font-size: 7px !important;
+                    line-height: 5px !important;
                 }
             }
             .footer_opening_hour{
                 h1{
-                    margin-bottom: 20px !important;
+                    margin-bottom: 16px !important;
                     font-size: 8px !important;
                 }
                 p{
@@ -233,7 +248,7 @@
                     font-size: 9px !important;
                 }
                 p{
-                    font-size: 9px !important;
+                    font-size: 7px !important;
                 }
             }
 

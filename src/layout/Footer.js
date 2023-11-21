@@ -53,7 +53,7 @@ const Footer = () => {
                     <div className='footer_head_office'>
 
                         <h1 className='title'>{t("Head Office")}</h1>
-                        <p className='text'>Syria-Qatar-Oman </p>
+                        <p className='text location'>Syria-Qatar-Oman </p>
                         <p className='text'>Info@sdnone.com</p>
                         <p className='text'>+974 77280008</p>
                         <p className='text'>+963 966338669</p>
@@ -64,7 +64,7 @@ const Footer = () => {
                     <div className='footer_opening_hour'>
 
                         <h1>{t("Opening Hour")}</h1>
-                        <p className='text'>{t("Mon - Sat")} : 8:00 - 18:00</p>
+                        <p className='text location'>{t("Mon - Sat")} : 8:00 - 18:00</p>
                         <p className='text'>{t("Sun: closed")}</p>
 
                     </div>

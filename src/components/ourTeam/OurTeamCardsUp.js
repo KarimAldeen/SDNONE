@@ -21,7 +21,7 @@ const OurTeamCardsUp = ({name, fullName, Position,  props, Key, EndPoint}) => {
                   {/* ? */}
                   </h2>
                 <p className='TeamCard_P'>{t("FullName")}: {fullName}.</p>
-                <p className='TeamCard_P'>{t("Position")}: {Position}.</p>
+                <p className='TeamCard_P Position'>{t("Position")}: {Position}.</p>
             </div>
 
         {/* onHover Card */}
