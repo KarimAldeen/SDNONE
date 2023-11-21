@@ -42,7 +42,8 @@ const OurTeamSection = () => {
             <div className='mid_logos'>
                 <div className='mid_first'>
                     <OurTeamCardsUp
-                    Key={1}
+                    Key={10}
+                    EndPoint={"png"}
                     name={"FullStack"}
                     fullName={"Ibrahim Karimeddin"}
                     Position={"FullStack developer"}
@@ -52,8 +53,9 @@ const OurTeamSection = () => {
                 <div className='mid_second'>
                     <OurTeamCardsUp
                     Key={2}
+                    EndPoint={"jpg"}
                     name={"Backend"}
-                    fullName={"Nagham alsaade"}
+                    fullName={"Nagham Alsaade"}
                     Position={"Backend developer"}
                     />
                 </div>
@@ -67,6 +69,7 @@ const OurTeamSection = () => {
                 <div className='right_first'>
                     <OurTeamCardsUp
                     Key={4}
+                    EndPoint={"jpg"}
                     name={"Frontend"}
                     fullName={"Moaz Dawalibi"}
                     Position={"Frontend developer"}
@@ -76,8 +79,9 @@ const OurTeamSection = () => {
                 <div className='right_second'>
                     <OurTeamCardsUp
                     Key={3}
+                    EndPoint={"jpg"}
                     name={"Flutter"}
-                    fullName={"Bishr        "}
+                    fullName={"Bishr Alkhoja"}
                     Position={"Flutter developer"}
                     />
                 </div>

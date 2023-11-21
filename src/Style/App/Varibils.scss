@@ -2,7 +2,7 @@
 
 :root {
     --primary: black;
-    --secondary: #0195ff;
+    --secondary: #4392cc;
     --title: #0378cb;
     --text:#202D3B;
     --bg: #242628;
@@ -14,7 +14,7 @@
 
 }
 :root:has(.dark){
-    --from_api: #366cff;
+    --from_api: #ffffff;
 
     --primary: black;
     --secondary: var(--from_api);
