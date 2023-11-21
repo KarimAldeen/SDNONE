@@ -63,9 +63,9 @@ const OurTeamSection = () => {
                     <OurTeamCardsUp
                     Key={10}
                     EndPoint={"png"}
-                    name={"Flutter"}
-                    fullName={"Bishr Alkhoja"}
-                    Position={"Flutter developer"}
+                    name={"Designer"}
+                    fullName={"Elia"}
+                    Position={"Designer"}
                     />
                 </div>
 
@@ -127,9 +127,9 @@ const OurTeamSection = () => {
                     <OurTeamCardsUp
                     Key={3}
                     EndPoint={"jpg"}
-                    name={"Designer"}
-                    fullName={"Elia"}
-                    Position={"Ui & Ux"}
+                    name={"Flutter"}
+                    fullName={"Bisher alkhoja"}
+                    Position={"Flutter"}
                     />
                 </div>
 
