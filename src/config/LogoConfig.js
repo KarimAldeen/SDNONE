@@ -20,14 +20,14 @@ const LogoConfig = () => {
 
         <OurPartner
           image1={"/assets/OurPartner/7.jpg"}
-          image2={"/assets/OurPartner/7.png"}
+          image2={"/assets/OurPartner/10.png"}
           image3={"/assets/OurPartner/9.jpg"}
           />
 
         <OurPartner
-          image1={"/assets/OurPartner/8.png"}
-          image2={"/assets/OurPartner/whiteLogo.png"}
-          image3={"/assets/OurPartner/10.png"}
+          image1={"/assets/OurPartner/11.png"}
+          image2={"/assets/OurPartner/8.png"}
+          image3={"/assets/OurPartner/7.png"}
           />
 
     </div>
