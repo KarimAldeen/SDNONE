@@ -12,31 +12,15 @@ const OurTeamSection = () => {
         
         {/* Title and info */}
         <div className='OurTeamPage_title'>
-            {/* {t("Our Teams")} */}
             {t("Our Specialties")}
         </div>
 
         <div className='OurTeamPage_text'>
-        {t("Meet the Minds Behind SDN")} :<span> {t("Our team is a powerhouse of talent, passion, and innovation")}</span>
+            {t("Meet the Minds Behind SDN")} :<span> {t("Our team is a powerhouse of talent, passion, and innovation")}</span>
         </div>
-
+        {/*   Team image   */}
         <div className='OurTeamPage_logos'>
 
-        {/* mid section */}
-
-            {/* <div className='left_logos'>
-                <div className='left_first'>
-                <img src='/assets/Team/Team0.jpg' alt='team_images'/>
-                </div>
-
-
-                <div className='Team_leader_section'>
-                    <h1 className='title'><span className='namespan'>{t("Name")}:</span><br/> Loubna Ourabi</h1>
-                    <p className='text'><span className='positionspan'>{t("Position")}:</span><br/> Team leader. <br/>Senior Backend developer.</p>
-                </div>
-            </div> */}
-
-        {/* mid section */}
 
             <div className='mid_logos'>
                 <div className='mid_first'>
@@ -61,7 +45,7 @@ const OurTeamSection = () => {
                 </div>
                 <div className='mid_second'>
                     <OurTeamCardsUp
-                    Key={14}
+                    Key={17}
                     EndPoint={"jpg"}
                     name={"Designer"}
                     fullName={"Elia"}
@@ -71,7 +55,6 @@ const OurTeamSection = () => {
 
             </div>
 
-        {/* right section */}
         
             <div className='right_logos'>
             <div className='mid_first'>
@@ -100,10 +83,10 @@ const OurTeamSection = () => {
 
                 <div className='right_second'>
                     <OurTeamCardsUp
-                    Key={17}
+                    Key={14}
                     EndPoint={"jpg"}
                     name={"Social Media"}
-                    fullName={"walid"}
+                    fullName={"Walid"}
                     Position={"Social Media"}
                     />
                 </div>
@@ -127,9 +110,9 @@ const OurTeamSection = () => {
                     <OurTeamCardsUp
                     Key={3}
                     EndPoint={"jpg"}
-                    name={"Flutter"}
+                    name={"Mobile"}
                     fullName={"Bisher alkhoja"}
-                    Position={"Flutter"}
+                    Position={"Mobile developer."}
                     />
                 </div>
 
