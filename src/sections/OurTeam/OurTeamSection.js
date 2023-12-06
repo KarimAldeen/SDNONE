@@ -38,9 +38,9 @@ const OurTeamSection = () => {
                     <OurTeamCardsUp
                     Key={2}
                     EndPoint={"jpg"}
-                    name={"Backend"}
+                    name={"Back End"}
                     fullName={"Nagham Alsaade"}
-                    Position={"Backend developer"}
+                    Position={"Back End developer"}
                     />
                 </div>
                 <div className='mid_second'>
@@ -48,7 +48,7 @@ const OurTeamSection = () => {
                     Key={17}
                     EndPoint={"jpg"}
                     name={"Designer"}
-                    fullName={"Elia"}
+                    fullName={"Elia Salibi"}
                     Position={"Designer"}
                     />
                 </div>
@@ -63,7 +63,7 @@ const OurTeamSection = () => {
                     EndPoint={"jpg"}
                     name={"Team Leader"}
                     fullName={"Loubna Ourabi"}
-                    Position={"Team Leader & Senior Backend developer"}
+                    Position={"Team Leader & Senior Back End developer"}
                     />
                 </div>
                 
@@ -75,9 +75,9 @@ const OurTeamSection = () => {
                     <OurTeamCardsUp
                     Key={4}
                     EndPoint={"jpg"}
-                    name={"Frontend"}
+                    name={"Front End"}
                     fullName={"Moaz Dawalibi"}
-                    Position={"Frontend developer"}
+                    Position={"Front End developer"}
                     />
                 </div>
 
@@ -86,7 +86,7 @@ const OurTeamSection = () => {
                     Key={14}
                     EndPoint={"jpg"}
                     name={"Social Media"}
-                    fullName={"Walid"}
+                    fullName={"Walid Alssaid"}
                     Position={"Social Media"}
                     />
                 </div>
@@ -98,11 +98,12 @@ const OurTeamSection = () => {
 
             <div className='mid_first'>
                     <OurTeamCardsUp
-                    Key={10}
-                    EndPoint={"png"}
-                    name={"FullStack"}
+                    Key={31}
+                    className="ibrahim_image"
+                    EndPoint={"jpg"}
+                    name={"Full Stack"}
                     fullName={"Ibrahim Karimeddin"}
-                    Position={"FullStack developer"}
+                    Position={"Full Stack developer"}
                     />
                 </div>
 
@@ -111,8 +112,8 @@ const OurTeamSection = () => {
                     Key={3}
                     EndPoint={"jpg"}
                     name={"Mobile"}
-                    fullName={"Bisher alkhoja"}
-                    Position={"Mobile developer."}
+                    fullName={"Bishr alkhoja"}
+                    Position={"Mobile application developer"}
                     />
                 </div>
 
