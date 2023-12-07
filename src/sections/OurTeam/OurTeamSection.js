@@ -25,8 +25,8 @@ const OurTeamSection = () => {
             <div className='mid_logos'>
                 <div className='mid_first'>
                     <OurTeamCardsUp
-                    Key={15}
-                    EndPoint={"png"}
+                    Key={55}
+                    EndPoint={"jpg"}
                     name={"CEO"}
                     fullName={"Rida Kabani"}
                     Position={"CEO"}
@@ -59,8 +59,8 @@ const OurTeamSection = () => {
             <div className='right_logos'>
             <div className='mid_first'>
                     <OurTeamCardsUp
-                    Key={0}
-                    EndPoint={"jpg"}
+                    Key={16}
+                    EndPoint={"png"}
                     name={"Team Leader"}
                     fullName={"Loubna Ourabi"}
                     Position={"Team Leader & Senior Back End developer"}
@@ -83,7 +83,7 @@ const OurTeamSection = () => {
 
                 <div className='right_second'>
                     <OurTeamCardsUp
-                    Key={14}
+                    Key={51}
                     EndPoint={"jpg"}
                     name={"Social Media"}
                     fullName={"Walid Alssaid"}
@@ -98,7 +98,7 @@ const OurTeamSection = () => {
 
             <div className='mid_first'>
                     <OurTeamCardsUp
-                    Key={31}
+                    Key={50}
                     className="ibrahim_image"
                     EndPoint={"jpg"}
                     name={"Full Stack"}
@@ -109,7 +109,7 @@ const OurTeamSection = () => {
 
                 <div className='right_second'>
                     <OurTeamCardsUp
-                    Key={3}
+                    Key={53}
                     EndPoint={"jpg"}
                     name={"Mobile"}
                     fullName={"Bishr alkhoja"}
